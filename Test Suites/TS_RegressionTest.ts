@@ -115,7 +115,7 @@
    <testCaseLink>
       <guid>a5161a66-cd70-4d4d-8c8d-6b50bb65b886</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Page_Smoke_Test/PLAN_PORTAL/PP1_LogIn_Page_Test</testCaseId>
    </testCaseLink>
    <testCaseLink>
