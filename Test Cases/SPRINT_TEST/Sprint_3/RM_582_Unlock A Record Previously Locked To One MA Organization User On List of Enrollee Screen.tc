@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to know if an enrollee previously locked to another user is available so that I can access the enrollee. 
+
+Acceptance Criteria: 
+
+RM-582.1: CDAT allows a user to open an enrollee that was previously worked on by another user in their MA organization when that enrollee is not locked to another user. 
+
+RM-582.2: CDAT removes the &quot;Locked&quot; status in the Progress column on the List of Enrollees screen when a user who actively worked on the enrollee closes closes out of the Enrollee Submission Management screen. 
+
+RM-582.3 CDAT checks for any previously existing locks when a user locks a particular enrollee, and automatically unlocks the previously locked enrollee(s). One user can only lock one enrollee at a time.</description>
+   <name>RM_582_Unlock A Record Previously Locked To One MA Organization User On List of Enrollee Screen</name>
+   <tag>RM_582</tag>
+   <comment></comment>
+   <testCaseGuid>8865f688-959a-44e1-8aa4-372be940932f</testCaseGuid>
+</TestCaseEntity>

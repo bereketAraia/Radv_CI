@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an I-RMC I want to save an open task so that I can keep my changes while I'm working. 
+
+Acceptance Criteria: 
+
+RM-521.1: CDAT saves the changes made and displays the following message when the user selects the Save option: 
+
+&quot;Your changes have been saved.&quot;</description>
+   <name>RM_521_Save An Open Submission Review Task</name>
+   <tag>RM 521</tag>
+   <comment></comment>
+   <testCaseGuid>6176dd28-05cf-4bb0-a3bb-6bbec955f58c</testCaseGuid>
+</TestCaseEntity>

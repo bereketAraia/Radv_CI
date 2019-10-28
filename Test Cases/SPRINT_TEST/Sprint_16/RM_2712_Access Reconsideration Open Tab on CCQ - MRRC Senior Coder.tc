@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a MRRC Senior Coder I want to access my Open queue so I can view the tasks assigned to me. 
+
+Acceptance Criteria: 
+
+RM-2712.1: CDAT displays the following fields on the Open tab : 
+•	Dispute ID 
+•	Coversheet 
+•	Submission Date (MM/DD/YYYYY and time XX:XX AM/PM EST/EDT) - defaults to submission date. The latest submission is displayed on the top. 
+•	Step 
+•	More which displays the following information when selected: 
+- Date Requested (MM/DD/YYYYY and time XX:XX AM/PM EST/EDT) 
+- Enrollee ID 
+- Reset (displays date and time of reset (MM/DD/YYYYY and time XX:XX AM/PM EST/EDT)). CDAT displays whether submission has been PM or QA reset. 
+
+RM-2712.2: CDAT provides the option to sort by the following column headings: 
+•	Dispute ID 
+•	Coversheet 
+•	Submission Date 
+•	Step</description>
+   <name>RM_2712_Access Reconsideration Open Tab on CCQ - MRRC Senior Coder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b514c70-9244-435d-a464-feea8df23df7</testCaseGuid>
+</TestCaseEntity>

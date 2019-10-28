@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user when I am logged out of the Account Registration process because of MFA issues, I want to continue where I left off as a returning user in CDAT so that I can complete my registration.
+
+Acceptance Criteria
+
+RM-7998.1- Given that the user has entered the following information on the Verify Account page, CDAT requires the user to select the Next option to proceed to the next screen.
+
+· First Name
+
+· Last Name
+
+· Email Address
+
+RM-7998.2- CDAT validates the information, If User Account does not exist, CDAT displays the Basic Account Information page and requires the user to provide the following information:
+
+· Contact Phone Number
+
+· Contact Phone Extension (Extension is not a required field)
+
+· Organization Name - Read only. MRRC Organization displays for MRRCs and CMS for CMS users.
+
+· Help Desk PIN - user sets up a four-digit number for help desk support authentication
+
+· Select Security Question - CDAT provides an option to select one security question from the following list:
+
+· Answer Security Question - CDAT requires the user to answer the security question selected. The answer must be at least four characters long. CDAT displays the following message if the user enters less than four characters:
+
+· Confirm Answer Security Question.
+
+RM-7998.3- CDAT provides a Next Option for the user to move to the next screen.
+
+RM-7998.4- CDAT displays the Create Password Screen, CDAT requires the user to enter a new password that meets CMS Security requirements.
+
+RM-79989.5- CDAT verifies that the password meets the password Data Dictionary standards. CDAT will display a check mark for every criterion met and an invalid icon for what's not met. The Create Password option is not enabled until all the criteria are met. CDAT requires the user to select the Create Password option to complete the process.
+
+RM-7998.6- CDAT displays the following minimum password requirements: Password must include:
+
+· No similarities to a previous password (no check mark displays for this)
+· No similarities to your username (no check mark displays for this)
+· No similarities to your first name
+· No similarities to your last name
+· No consecutive characters (aaa, abc, asd, 123)
+· 8+ characters including:
+o A number
+o A special character
+o A lowercase letter
+o An uppercase letter
+· Cannot include any word/word portion prohibited by the defined CMS dictionary
+
+RM-7998.7- If the user exits prior to clicking Next, then the user can start over at Step 1 with no issues if user attempts to log back in.
+
+RM-7998.8- If the user exits after successfully creating the password, then the user would follow the process for having an account existing and would have to wait on the email with the username</description>
+   <name>RM_7998.1_Allow the User to Continue where the user left off with MFA issues</name>
+   <tag>https://newwaveservicedesk.atlassian.net/browse/RM-7998</tag>
+   <comment></comment>
+   <testCaseGuid>3ab53243-28e9-47ca-b1f8-8c0ebedfabb6</testCaseGuid>
+</TestCaseEntity>

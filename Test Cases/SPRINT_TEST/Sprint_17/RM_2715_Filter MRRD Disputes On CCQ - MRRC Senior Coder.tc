@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a MRRC Senior Coder I want to filter disputes on the CCQ so that I can view only those relevant to my needs.
+
+Acceptance Criteria:
+
+RM-2715.1: CDAT provides an option to filter by the following step values on the CCQ:
+
+-MRRC Senior Coder
+-Technical Writer
+
+RM-2715.2: CDAT does not display filter options when there is no data to display. For example if a user is authorized to process tasks at the MRRC Senior Coder step only then the filter option is not available.
+
+RM-2715.3: CDAT provides an option to clear selected filters and return to the default dispute listing.</description>
+   <name>RM_2715_Filter MRRD Disputes On CCQ - MRRC Senior Coder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a68fa87c-bfa1-4faf-b376-cfd07654dd8e</testCaseGuid>
+</TestCaseEntity>

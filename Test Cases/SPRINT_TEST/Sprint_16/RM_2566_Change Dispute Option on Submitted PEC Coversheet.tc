@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA contract user I want to edit the dispute option on a PEC submitted coversheet so that I can change my previous selection. 
+
+Acceptance Criteria: 
+
+RM-2566.1: Given that a user has submitted a PEC coversheet, CDAT enables the Edit option when the user opens the submitted PEC Coversheet. 
+
+RM-2566.2: CDAT allows the user to change the dispute option up until the end of the 60-day submission period (or extended submission period if applicable). 
+
+RM-2566.3: CDAT removes the justification entered by the MA contract user when they change selection from &quot;PEC dispute is being submitted for this MA Contract&quot; to &quot;No PEC dispute is being submitted for this MA Contract&quot;. 
+
+RM-2566.4: CDAT overwrites the previous dispute option with any revision prior to the submission deadline (or extended submission deadline if applicable).</description>
+   <name>RM_2566_Change Dispute Option on Submitted PEC Coversheet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a7ef9d4-7ac2-40d0-be23-86233436ad82</testCaseGuid>
+</TestCaseEntity>

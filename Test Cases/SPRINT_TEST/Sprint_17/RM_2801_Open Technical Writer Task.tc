@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Technical Writer I want to open a task so that I can process it.
+
+Acceptance Criteria:
+
+RM-2801.1: CDAT allows the Technical Writer to open a task by selecting the Dispute ID on the Open tab of the CCQ.
+
+RM-2801.2: CDAT opens the Technical Writer screen with the Details tab displayed by default when the user selects a task's Dispute ID.</description>
+   <name>RM_2801_Open Technical Writer Task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bde83523-5928-4101-b506-4103fc0e55a2</testCaseGuid>
+</TestCaseEntity>

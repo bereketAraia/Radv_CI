@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Technical Writer I want to return a task to the MRRC Senior Coder so that updates can be made.
+
+Acceptance Criteria:
+
+RM-2839.1: CDAT sends the task to the MRRC Senior Coder who last reviewed and processed it when the user selects Provide Response To MRRC Senior Coder. The task is moved from the Technical Writer’s  Open to the Returned tab when it has been sent for clarification.
+
+RM-2839.2: CDAT sends the task from the Technical Writer to the open MRRC Senior Coder queue if the original MRRC Senior Coder’s account is inactive.</description>
+   <name>RM_2839</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb7597c1-f3ec-4f85-b3fd-d7b01dc35311</testCaseGuid>
+</TestCaseEntity>

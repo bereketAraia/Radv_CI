@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA contract user I want to exit from an MRRD Coversheet screen I am editing so that I can leave the page without saving my changes. 
+
+Acceptance Criteria: 
+
+RM-2619.1: CDAT provides an Exit option for the user to leave the MRRD Coversheet screen of a submission they are editing. 
+
+RM-2619.2: CDAT displays the following message when the user selects the Exit option before submitting the coversheet: 
+
+&quot;Closing without selecting “Submit” will delete all information entered on this Coversheet. You must submit this information in order to participate in the appeals process outlined in 42 C.F.R. §422.311 for your medical record review determination. Are you sure you want to Exit?&quot; 
+
+RM-2619.3: CDAT provides the following options when the user selects the Exit option: 
+
+•Exit - returns the user to the List of Disputable CMS-HCCs without saving the information. CDAT retains the prior submission information if an MA contract user selects Exit without submitting the Coversheet after selecting Edit (No updates made by MA contract user will be saved).
+•Continue Working - keeps the coversheet open for the user to continue working</description>
+   <name>RM_2619_Exit From Edited MRRD Coversheet Screen Before Submitting Changes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f04a3ce0-4a6e-47c0-bdea-f0c9f720478f</testCaseGuid>
+</TestCaseEntity>

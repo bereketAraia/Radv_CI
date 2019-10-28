@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA contract user I want to exit from a PEC Coversheet screen I am editing so that I can leave the page without saving my changes. 
+
+Acceptance Criteria: 
+
+RM-2621.1: CDAT provides an Exit option for the user to leave the PEC Coversheet screen of a submission they are editing. 
+
+RM-2621.2: CDAT displays the following message when the user selects the Exit option before submitting the coversheet: 
+
+&quot;Closing without selecting “Submit” will delete all information entered on this Coversheet. You must submit this information in order to participate in the appeals process outlined in 42 C.F.R. §422.311 for your payment error calculation. Are you sure you want to Exit?&quot; 
+
+RM-2621.3: CDAT provides the following options when the user selects the Exit option: 
+
+• Proceed With Cancel - returns the user to the Plan Portal screen without saving the information. 
+• Resume PEC Coversheet - keeps the coversheet open for the user to continue working</description>
+   <name>RM_2621_Exit From Edited PEC Coversheet Screen Before Submitting Changes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f24fb3b2-a0ee-4a53-a94f-20d1bee41bc3</testCaseGuid>
+</TestCaseEntity>

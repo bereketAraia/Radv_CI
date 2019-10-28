@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a MRRC Senior Coder I want to view the MA contract's justification on the Evaluate Tab so that I can make an informed decision. 
+
+Acceptance Criteria: 
+
+RM-2725.1: Given that the user has selected the task on the CCQ, CDAT displays the MA contract's justification on the Evaluate Tab. 
+
+RM-2725.2: The justification cannot be edited by the MRRC Senior Coder (read only)</description>
+   <name>RM_2725_View MA Contract Justification On MRRC Senior Coder Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a351a77-29bc-4f7e-bb64-624d93bd2f70</testCaseGuid>
+</TestCaseEntity>

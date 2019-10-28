@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Focused Review Coder I want to request a task so that I can process it. 
+
+Acceptance Criteria: 
+
+RM-988.1: CDAT provides an option to request a task from the CCQ. 
+
+RM-988.2: CDAT makes records available to a Focused Review Coder in the following order when the user selects Request Task: 
+- Provider Type – Outpatient first 
+- The number of CMS-HCCs - higher count of CMS-HCCs first (descending order) 
+- Rank - highest ranked first (descending order) 
+- Submission date – oldest to newest date 
+
+RM-988.3: A coder that submits a record at Senior Evaluation or Invalid Confirmation cannot request the same task at Focused Review.  ---not automatable!!!
+
+RM-988.4: CDAT locks an enrollee until coding is completed at Focused Review Coder and the record for that enrollee is submitted to Discrepant Confirmation. A coder cannot request a record for the same enrollee if the first record is escalated. 
+
+RM-988.5: If a record is escalated, no further records can be requested for that enrollee until the escalation is complete and the Focused Review Coder has submitted the record to Discrepant Confirmation. If a record is QA reset then that enrollee's records become available after the QA reset is complete. 
+
+RM-988.6: The enrollee’s subsequent records are unavailable to be worked at Focused Review when all CMS-HCCs for the enrollee are confirmed at Focused Review. The enrollee's subsequent records will still go through Intake but skip Focused Review and are available to be worked at Discrepant Confirmation when all CMS-HCCs for the enrollee have been confirmed at Discrepant Confirmation. However, if a record that has been worked at Focused Review does not confirm all the CMS-HCCs at Discrepant Confirmation then the next best record that contains the unconfirmed CMS-HCC(s) is supposed to go through Focused Review until all the CMS-HCCs have been confirmed at Discrepant Confirmation. 
+
+RM-988.7: All records on hold at Focused Review for an enrollee bypass Focused Review and proceed to Discrepant Confirmation when all CMS-HCCs for the enrollee have been confirmed at Discrepant Confirmation.</description>
+   <name>RM_988_Request Focused Review Task</name>
+   <tag>RM 988</tag>
+   <comment></comment>
+   <testCaseGuid>90d9cae3-2929-46ce-b2c7-c3b0e3f948d4</testCaseGuid>
+</TestCaseEntity>

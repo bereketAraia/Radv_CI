@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want CDAT to automatically assign a rank to a Coversheet with an attached medical record so that I can define an order of priority for each submission. 
+
+Acceptance Criteria: 
+
+RM-71.1: CDAT automatically assigns each new submission with a submission rank = 1 except for submissions with an upload type = No Medical Record. Subsequent submissions for that enrollee will automatically move down one level in priority. 
+
+RM-71.2: CDAT automatically assigns rank = 0 for a submission with No medical record attached. The submission displays a default value of 0 on the Enrollee Submission Management Screen. No medical record submissions will not count against the total number of submissions allowed for that enrollee.</description>
+   <name>RM_71_Rank Submission</name>
+   <tag>RM 71</tag>
+   <comment></comment>
+   <testCaseGuid>a73dbdf5-7b04-40e4-93c5-cd7eed647807</testCaseGuid>
+</TestCaseEntity>

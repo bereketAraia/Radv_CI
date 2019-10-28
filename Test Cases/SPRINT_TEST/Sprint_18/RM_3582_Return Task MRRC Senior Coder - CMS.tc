@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a CMS user I want to return a task to the MRRC Senior so that updates can be made.
+
+Acceptance Criteria:
+
+RM-3582.1: CDAT requires the user to select a MRRC Senior Coder from the following options:
+
+• MRRC Senior Coder
+• Technical Writer
+
+
+RM-3582.2: CDAT displays a pop up screen to add comments when the user selects the Add Comment option.
+
+RM-3582.3: CDAT displays the following message when a user attempts to return the task to the MRRC Senior without entering a reason:</description>
+   <name>RM_3582_Return Task MRRC Senior Coder - CMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33b73826-3232-47ec-9332-1975d2803e81</testCaseGuid>
+</TestCaseEntity>

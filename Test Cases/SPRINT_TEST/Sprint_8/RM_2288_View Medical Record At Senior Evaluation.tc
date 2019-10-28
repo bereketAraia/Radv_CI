@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Intake Senior Evaluator I want to view a medical record so that I can respond to INV questions correctly. 
+
+Acceptance Criteria: 
+
+RM-2238.1: CDAT requires the user to view the PDF submission before enabling the screen for the user to process the submission. The only option enabled before the user views the record is Exit. 
+
+RM-2288.2: CDAT displays the following message until the user has viewed the PDF submission: 
+
+You must view the record before you can review this task. 
+
+RM-2288.3: After the user has viewed and saved the submission, they do not have to view it again if they were to close and reopen the task. 
+
+RM-2288.4: If the user only views but does not save the submission and exits, CDAT will require the user to view the record again when they return to the screen.</description>
+   <name>RM_2288_View Medical Record At Senior Evaluation</name>
+   <tag>RM 2288</tag>
+   <comment></comment>
+   <testCaseGuid>bf28b07d-858d-4872-bc5e-cbca334dd64b</testCaseGuid>
+</TestCaseEntity>

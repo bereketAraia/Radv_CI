@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to know if an enrollee is being processed by another user so that I can access a different enrollee. 
+
+Acceptance Criteria: 
+
+RM-42.1: CDAT does not allow a user to open an enrollee that is currently being worked on by another user in their MA organization. 
+
+RM-42.2: CDAT displays &quot;Locked&quot; in the Progress column on the List of Enrollees screen when another user is actively working on the enrollee. &quot;Locked&quot; only displays in the Progress column for a user who attempts to open an enrollee that is already being worked on. A user who experiences the issue in RM-42.3 will need to refresh their screen in order for the &quot;Locked&quot; status to display. 
+
+RM-42.3: CDAT displays the following message if two MA organization users navigate to the same MA Contract's List of Enrollees screen at the same time, and both have the link for an enrollee enabled (available to be selected), and User 1 selects the enrollee to enter the Enrollee Submission Management screen, thereby locking the enrollee, and then User 2 also selects the locked enrollee: 
+
+- &quot;Another user from your MA contract is currently working on this Enrollee ID. Two MA contract users cannot work on the same Enrollee ID at the same time. Please select another enrollee from the List of Enrollees.&quot; 
+
+Note: The error message above will display over the announcement. In order to view the announcement again the user has to close the error message.</description>
+   <name>RM_42_Lock A Record To One MA Organization User On List of Enrollee Screen</name>
+   <tag>RM 42</tag>
+   <comment></comment>
+   <testCaseGuid>c730ebeb-8193-4344-8e9f-dd2170034149</testCaseGuid>
+</TestCaseEntity>

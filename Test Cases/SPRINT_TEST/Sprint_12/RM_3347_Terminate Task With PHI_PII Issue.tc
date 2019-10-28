@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a QA Panel Editor I want to terminate a task with a PHI/PII issue so that it can be removed from the system.
+
+Acceptance Criteria:
+
+RM-3347.1: Given that the user has opened a task from the QA Panel screen and selected the Respond tab, CDAT provides a PHI/PII Issue Found option.
+
+RM-3347.2: CDAT displays a PHI/PII Issue found pop up when the QA Panel Editor selects the PHI/PII Issue Found option.
+
+RM-3347.3: CDAT displays the following text on the PHI/PII Issue found pop up:
+
+The panel has determined that this submission contains a PHI/PII issue.
+Action required: create a support ticket to remove this submission from the system.
+
+RM-3347.4: CDAT requires the QA Panel Editor to enter a support ticket number before submitting the task for termination.</description>
+   <name>RM_3347_Terminate Task With PHI_PII Issue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7928b464-c8f1-4181-8df6-c4b64ca79121</testCaseGuid>
+</TestCaseEntity>

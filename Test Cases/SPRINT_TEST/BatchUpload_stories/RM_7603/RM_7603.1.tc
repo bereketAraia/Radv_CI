@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA contract user I want to download the Batch Manifest File Template from the Plan Library so that I can enter details of the files I intend to submit.
+
+Acceptance Criteria:
+
+RM‌-7603.1: Given that the user has successfully logged in and selected the Plan Library link, CDAT displays a template titled “ Batch Manifest File “ .</description>
+   <name>RM_7603.1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dba5327d-215e-40d3-9722-9899f18047f1</testCaseGuid>
+</TestCaseEntity>

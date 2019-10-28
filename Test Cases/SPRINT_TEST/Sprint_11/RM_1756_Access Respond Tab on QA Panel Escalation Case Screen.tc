@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a QA Panel user I want to access the Respond tab on the Escalation Case screen so that I can view the task I want to resolve. 
+
+Acceptance Criteria: 
+
+RM-1756.1: The QA Panel Editor (Independent Coding Consultant (ICC)) has the following write access in addition to the QA Panel member access: 
+-	Perform QA Reset 
+- Terminate PHI/PII tasks 
+-	Respond to the escalated tasks 
+-	Save any changes made to the escalation task 
+-	Submit escalated task back to the user who originally escalated it 
+
+RM-1756.2: QA Panel members have read only access to the record. 
+
+RM-1756.3: CDAT provides a View Submission option for the user to view the submitted coversheet, attestation, if applicable and medical record. 
+
+RM-1756.4: CDAT provides an Open Encoder Tool option for research purposes for Focused Review and Discrepant Confirmation escalation cases. 
+
+RM-1756.5: CDAT provides the following options on the Respond tab: 
+•Reset - resets and sends the task back to Submission Review. Only a QA Panel Editor can reset a task. The Reset option is not available on the QA Panel Member screen. 
+•Exit - returns user to the Open tab on the QA Panel queue 
+•Save - saves the user's work. Only a QA Editor can save their work. The Save option is not available on the QA Panel Member screen. 
+•PHI/PII Issue Found - opens PHI/PII Issue found pop up 
+•Send Response - saves and submits the task to back to the user who escalated the case. The Send Response option is not available on the QA Panel Member screen. 
+
+RM-1756.6: The Respond tab displays the following header information: 
+•Escalation Case ID 
+•Coversheet ID 
+•Escalation Submitted By: (LastName FirstName) 
+•Step(the step from which the escalation was made) 
+•Date Escalated 
+
+RM-1756.7: CDAT displays the reason for escalation as read only in the Respond tab. 
+
+RM-1756.8: CDAT provides a Response option for the QA Panel Editor to respond to the escalation (2,000 character limit).</description>
+   <name>RM_1756_Access Respond Tab on QA Panel Escalation Case Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1402f10c-bb0a-454b-ab66-d85e98858c1a</testCaseGuid>
+</TestCaseEntity>

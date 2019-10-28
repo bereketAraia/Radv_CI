@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to create a new Coversheet so that I can submit it to support an audited CMS-HCC. 
+
+Acceptance Criteria: 
+
+RM-49.1: CDAT provides an option for the user to create a Guided or Single Coversheet from the Enrollee Submission Management screen. The user is directed to the Coversheet screen upon electing to create a new coversheet.</description>
+   <name>RM_49_Create New Coversheet</name>
+   <tag>RM 49</tag>
+   <comment></comment>
+   <testCaseGuid>388165aa-ed91-4d15-b3ff-03b3cab8e0bf</testCaseGuid>
+</TestCaseEntity>

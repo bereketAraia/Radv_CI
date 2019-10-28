@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to edit the enrollee's demographic information on the coversheet so that it matches the Medical Record. 
+
+Acceptance Criteria: 
+
+RM-53.1: CDAT displays prepopulated enrollee last name, first name and date of birth. 
+
+RM-53.2: CDAT allows the user to update the prepopulated enrollee last name, first name and date of birth if different from the submitted medical record. The edited Last Name, First Name and DOB fields will be displayed on the Review Coversheet screen. 
+
+RM-53.3: CDAT validates that the Corrected DOB entry is less than or equal to 12/31 of the payment year. For example for CON15 the Corrected DOB should be less than or equal to 12/31/2014 and for CON14 the Corrected DOB should be less than or equal to 12/31/2013. 
+
+RM-53.4: CDAT displays the following message when a user enters a date that is greater than 12/31 of the payment year: 
+“Invalid DOB: The corrected DOB must not be after 12/31/20XX.” 
+
+For example if the user is working in CON14 the message should read “Invalid DOB: The corrected DOB must not be after 12/31/2013.” 
+
+RM-53.5: CDAT validates that the Corrected DOB entry cannot be before 01/01/1900 and displays the following message when a user enters a date that is before 01/01/1900: 
+“Invalid DOB: The corrected DOB must not be before 01/01/1900” 
+
+RM-53.6: CDAT enables a NEXT option when the user updates the enrollee information section of the coversheet (Guided Form only). 
+
+RM-53.7: CDAT enables a BACK option when the user updates the enrollee information section on the coversheet (Guided Form only). CDAT retains data entries and selections when a user selects BACK to return to the previous screen. 
+
+RM-53.8: CDAT provides an option for the user to select CANCEL. 
+
+RM-53.9: CDAT displays the following message when a user selects CANCEL: 
+&quot;If you proceed with cancelling, this Coversheet will not be saved.&quot; The user is required to select &quot;Proceed with Cancel&quot; or &quot;Resume Coversheet.&quot; 
+
+RM-53.10: CDAT sends the user back to the Enrollee Submission Management screen if they select &quot;Proceed with Cancel&quot;. 
+
+RM-53.11: CDAT allows only the special characters listed in Appendix A (see attachment) to be entered in the name fields. 
+
+RM-53.12: CDAT displays the following message when a user enters a special character which is not permitted: 
+
+&quot;Invalid Name: The special character(s) you entered are not allowed” 
+
+RM-53.13: CDAT requires the user to enter the correct date format, MM/DD/YYYY. 
+
+RM-53.14: CDAT displays the following message when a user enters an incorrect date format: 
+
+-Invalid date entered. Date must be in MM/DD/YYYY format.</description>
+   <name>RM_53_Edit Enrollee Demographic Information on the Coversheet</name>
+   <tag>RM 53</tag>
+   <comment></comment>
+   <testCaseGuid>0d549af1-6dde-42b7-bacd-e80abb6c95c5</testCaseGuid>
+</TestCaseEntity>

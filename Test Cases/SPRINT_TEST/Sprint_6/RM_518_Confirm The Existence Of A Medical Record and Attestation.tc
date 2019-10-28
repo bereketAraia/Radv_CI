@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an I-RMC I want to confirm the existence of a medical record and attestation so that the task can be processed correctly. 
+
+Acceptance Criteria: 
+
+RM-518.1: CDAT requires the user to check all options that are applicable to the submission from the following selections: 
+•A non-CMS-Generated Attestation 
+•A CMS-Generated Attestation 
+•No Attestation 
+•A medical record 
+•No medical record 
+
+RM-518.2: CDAT only allows the user to select one attestation option at a time. For example, if the user selects &quot;A non-CMS-Generated Attestation&quot; they cannot select &quot;A CMS-Generated Attestation&quot; and/or &quot;No Attestation&quot; at the same time. 
+
+RM-518.3: CDAT allows the user to select &quot;A medical record&quot; or &quot;No medical record&quot; but not both at the same time.</description>
+   <name>RM_518_Confirm The Existence Of A Medical Record and Attestation</name>
+   <tag>RM 518</tag>
+   <comment></comment>
+   <testCaseGuid>9cf55cdb-8760-46c9-8a04-993f831ae433</testCaseGuid>
+</TestCaseEntity>

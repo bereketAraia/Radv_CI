@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Intake Senior Evaluator I want to select how a medical record was created so that I can determine whether the the medical record entries were originally made through an EMR software product or a manual system of documentation. 
+
+Acceptance Criteria: 
+
+RM-574.1: CDAT provides the user with the following options to indicate if an electronic medical record was submitted: 
+• Electronic medical record 
+• Scanned, hand-written medical record</description>
+   <name>RM_574_Select_How_Medical_Record_Was_Created_On_Senior_Evaluation_Screen</name>
+   <tag>RM 574</tag>
+   <comment></comment>
+   <testCaseGuid>62eb615c-6da1-406f-8c4d-b34882bbbe13</testCaseGuid>
+</TestCaseEntity>

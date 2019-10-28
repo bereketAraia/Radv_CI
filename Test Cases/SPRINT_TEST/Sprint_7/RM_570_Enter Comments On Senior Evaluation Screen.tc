@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Intake Senior Evaluator I want to enter comments regarding my task so that I can provide background information to other users who will review the same task. 
+
+Acceptance Criteria: 
+
+RM-570.1: CDAT provides an option for the user to enter comments regarding the submission. 
+
+RM-570.2: CDAT allows a maximum size of 2,000 characters for the comment area.</description>
+   <name>RM_570_Enter Comments On Senior Evaluation Screen</name>
+   <tag>RM 570</tag>
+   <comment></comment>
+   <testCaseGuid>2bc342ad-0bfa-4d8c-a71b-19517c9f536d</testCaseGuid>
+</TestCaseEntity>

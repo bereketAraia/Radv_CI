@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Discrepant Confirmation Coder I want to access the In Escalation Tab on the Central Coder Queue so I can see my escalated tasks. 
+
+Acceptance Criteria: 
+
+RM-1037.1: CDAT displays all tasks escalated by the user when the user selects the In Escalation Tab on the Central Coder Queue tab. 
+
+RM-1037.2: CDAT displays the following fields on the In Escalation Tab on the Central Coder Queue tab: 
+Progress (Value: In Progress) 
+• Coversheet ID 
+• Submission Date (date submitted by plan user) 
+• Step 
+• More which displays the following information when selected: 
+- Date Escalated (MM/DD/YYYYY and time XX:XX AM EST) 
+- Enrollee ID 
+
+RM-1037.3: CDAT provides a Search by Coversheet ID option (supports partial search functionality). 
+
+RM-1037.4: CDAT displays the following message when a search returns no results: 
+&quot;No results found&quot; 
+
+RM-1037.5: Records in escalation cannot be opened until they are returned to the users Queue. CDAT marks the record as Returned from Escalation. 
+
+RM-1037.6: CDAT provides an option to Request a Task from the In Escalation tab. The user has an option to select the step for which they are requesting a task.</description>
+   <name>RM_1037_Access Discrepant Confirmation In Escalation Tab on the Central Coder Queue Screen</name>
+   <tag>RM 1037</tag>
+   <comment></comment>
+   <testCaseGuid>f1f73a14-8049-491c-8714-e36ed24f08e3</testCaseGuid>
+</TestCaseEntity>

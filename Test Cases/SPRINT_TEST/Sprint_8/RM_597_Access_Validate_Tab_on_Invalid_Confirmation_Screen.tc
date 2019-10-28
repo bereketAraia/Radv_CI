@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an I-IVC Sr. Evaluator user I want to access the Validate tab so I can perform validation checks on the record. 
+
+Acceptance Criteria: 
+
+RM-597.1: CDAT displays the Coversheet ID on the ValidateTab. 
+
+RM-597.2: CDAT provides the following options on the Validate tab: 
+
+•Open Submission - allows the user to view the submitted coversheet, attestation, if applicable and medical record) 
+•Exit - returns user to the Open tab on the CCQ 
+•Escalate - sends the task to the ER Sr. Coder 
+•Save - saves the user's work 
+•Complete - submits the task to the next step</description>
+   <name>RM_597_Access_Validate_Tab_on_Invalid_Confirmation_Screen</name>
+   <tag>RM 597</tag>
+   <comment></comment>
+   <testCaseGuid>20453edc-1a1f-4785-8180-710667668520</testCaseGuid>
+</TestCaseEntity>

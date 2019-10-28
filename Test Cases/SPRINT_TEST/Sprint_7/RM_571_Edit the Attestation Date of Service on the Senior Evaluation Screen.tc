@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Intake Senior Evaluator I want to change the date of service so that I can match it to the date on the Attestation. 
+
+Acceptance Criteria: 
+
+RM-571.1: CDAT provides the user with an option to enter the Attestation Date. 
+
+RM-571.2: CDAT allows the user to edit the Attestation Date of Service. The user can edit the month, day or year. 
+
+RM-571.3: CDAT requires the user to enter the correct date format, MM/DD/YYYY 
+
+RM-571.4: CDAT displays the following message when a user enters an incorrect date format: 
+
+Invalid date entered. Date must be in MM/DD/YYYY format. 
+
+RM-571.5: CDAT validates that the Attestation Date cannot be after 12/31 of the sample year and displays the following message if the attestation dates are after 12/31 of the sample year: 
+&quot;Attestation date cannot be greater than 12/31/XXXX.&quot; 
+
+RM-571.6: CDAT does not display the Attestation Date of Service when the user confirms that No Attestation exists.</description>
+   <name>RM_571_Edit the Attestation Date of Service on the Senior Evaluation Screen</name>
+   <tag>RM 571</tag>
+   <comment></comment>
+   <testCaseGuid>4658e18b-1a2f-4140-9458-27c218d6a4c2</testCaseGuid>
+</TestCaseEntity>

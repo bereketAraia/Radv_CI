@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a MRRC Senior Coder I want to update my disposition so that I can incorporate the Technical Writer feedback.
+
+Acceptance Criteria:
+
+RM-3101.1: CDAT allows the MRRC Senior Coder to edit their original disposition when the task is received from the Technical Writer.
+
+RM-3101.2: CDAT saves all dispositions recorded by the MRRC Senior Coder.</description>
+   <name>RM_3101_Update MRRC Senior Coder Disposition</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>00151721-4422-44ed-a4f9-b0375c73c16a</testCaseGuid>
+</TestCaseEntity>

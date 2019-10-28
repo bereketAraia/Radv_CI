@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an I-RMC user I want to delete a page(s) containing PHI/PII so that it can be removed. 
+
+Acceptance Criteria: 
+
+RM-5248.1: Given that a QA Panel Editor has approved the deletion of a page(s) containing PHI/PII, CDAT enables the Delete option when the I-RMC opens the submission. 
+
+RM-5248.2: CDAT removes the page containing PHI/PII when the I-RMC selects the Delete option. 
+
+RM-5248.3: CDAT inserts a blank page with a note that reads &quot;&quot;This page has been removed because it contained PHI/PII. 
+
+RM-5248.4: CDAT marks the record as reset in the Reset Tab of the user who initiated the PHI/PII issue with a comment” Reset due to PHI/PII”, and the reset record progresses through the workflow as a QA Panel Reset if the submission is escalated after Submission Review. 
+
+RM-5248.5 CDAT enforces the same user exclusions as a QA Panel Reset for the “Reset due to PHI/PII” record.</description>
+   <name>RM_5248_Delete Page With PHI_PII</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f28a4ff-358b-431e-855e-c010af6017bd</testCaseGuid>
+</TestCaseEntity>

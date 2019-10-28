@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Technical Writer I want to access the Technical Writer Escalation Reason screen so that I can begin the escalation process. 
+
+Acceptance Criteria: 
+
+RM-3107.1: CDAT provides an Escalate option on the Technical Writer screen. 
+
+RM-3107.2: CDAT displays an Escalation Reason screen when the user selects the Escalate option.</description>
+   <name>RM_3107_Access Technical Writer Escalation Reason Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebff3328-236f-4a9b-9f46-febd884c28b8</testCaseGuid>
+</TestCaseEntity>

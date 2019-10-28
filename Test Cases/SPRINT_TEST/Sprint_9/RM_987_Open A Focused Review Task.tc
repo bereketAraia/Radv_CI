@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Focused Review Coder I want to open a task so that I can process it. 
+
+Acceptance Criteria: 
+
+RM-987.1: CDAT allows the user to open a task by selecting the Coversheet ID on the Open tab of the CCQ. 
+
+RM-987.2: CDAT opens the Focused Review screen with the Details tab displayed by default when the user selects a task's Coversheet ID.</description>
+   <name>RM_987_Open A Focused Review Task</name>
+   <tag>RM 987</tag>
+   <comment></comment>
+   <testCaseGuid>2d72ac19-f498-4520-91b5-ab62f8664fe3</testCaseGuid>
+</TestCaseEntity>

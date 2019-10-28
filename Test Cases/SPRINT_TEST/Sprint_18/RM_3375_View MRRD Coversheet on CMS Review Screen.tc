@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a CMS user I want to view the MRRD Coversheet associated with the appeal so that I can use the information to review the task.
+
+Acceptance Criteria:
+
+RM-3375.1: CDAT displays the MRRD Coversheet related to the appeal when the user selects View Coversheet option on the Details or Respond tabs on the CMS Review screen.</description>
+   <name>RM_3375_View MRRD Coversheet on CMS Review Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81005307-a6ee-4758-8b3f-e2f37a5407d6</testCaseGuid>
+</TestCaseEntity>

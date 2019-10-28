@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user, I want to return to the Enrollee Submission Management screen after changing coversheet ranks so that I can continue with my work. 
+
+Acceptance Criteria: 
+
+RM-1278.1: CDAT directs the user to the Rank Coversheets screen when the user selects the &quot;Change Rank&quot; option on the Enrollee Submission Management screen. 
+
+RM-1278.2: CDAT displays the following header information on the Rank Coversheets screen: 
+
+- Name 
+- DOB 
+- Enrollee ID 
+- Current HMOID 
+- Sample Year HMOID 
+- MA Contract 
+- MA Organization 
+- Submission Deadline 
+
+RM-1278.3: CDAT displays the following column headers on the Rank Coversheets screen: 
+
+- Rank 
+- Type 
+- Coversheet ID 
+- Date Submitted 
+- CMS-HCCs 
+- Issue 
+- File Format Issue 
+
+RM-1278.4: CDAT provides a Cancel option on the Rank Coversheets screen and displays the following message when the user selects it: 
+
+&quot;Are you sure you want to cancel ranking coversheets?&quot; 
+
+Save - saves the ranks and sends the user back to the Enrollee Submission Management 
+Don't Save - does not save the ranks and sends the user back to the Enrollee Submission Management 
+Continue Ranking - keeps the user on the Rank Coversheets screen 
+  
+RM-1278.5: CDAT provides a Refresh order option which displays what was last saved when selected.
+
+RM-1278.6: CDAT provides a Save Changes option which saves the rank edits, displays the following message and redirects the user back to the Enrollee Submission Management after selecting Ok: 
+
+&quot;Your changes have been saved.&quot;</description>
+   <name>RM_1278_Return To Enrollee Submission Management Screen From Rank Coversheets Screen</name>
+   <tag>RM 1278</tag>
+   <comment></comment>
+   <testCaseGuid>d1bfee6c-ed76-40dc-83ad-2e2d80e820ea</testCaseGuid>
+</TestCaseEntity>

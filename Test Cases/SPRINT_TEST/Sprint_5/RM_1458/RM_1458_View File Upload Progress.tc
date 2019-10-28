@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to view a file upload progress indicator on the Medical Record Coversheet screen so that I know when my file has uploaded. 
+
+Acceptance Criteria: 
+
+RM-1458.1: CDAT displays real time progress of the file currently being uploaded.</description>
+   <name>RM_1458_View File Upload Progress</name>
+   <tag>RM 1458</tag>
+   <comment></comment>
+   <testCaseGuid>b9dfb7a0-04e8-40c5-b4b0-d3b47f4921c7</testCaseGuid>
+</TestCaseEntity>

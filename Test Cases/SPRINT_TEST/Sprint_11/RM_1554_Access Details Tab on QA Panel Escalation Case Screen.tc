@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a QA Panel user I want to access the Details tab on the Escalation Case screen so that I can view history for the record I want to process. 
+
+Acceptance Criteria: 
+
+RM-1554.1: CDAT directs the user to the Escalation Case screen after the QA Panel user has selected a task to work on. The Escalation Case screen displays the following tabs: 
+•Details (displayed by default) - Details tab is read only. 
+•Respond 
+
+RM-1554.2: CDAT provides a View Submission option for the user to view medical record documentation. 
+
+RM-1554.3: CDAT provides a View Coversheet option for the user to view medical record coversheet. 
+
+RM-1554.4: The Details tab displays the following header information: 
+•Escalation Case ID 
+•Coversheet ID 
+•Escalation Submitted By: (LastName FirstName) 
+•Step (the step from which the escalation was made) 
+•Date Escalated 
+•Enrollee ID 
+•Name 
+•Corrected Name 
+• Enrollee DOB 
+•Corrected DOB 
+•Provider Type 
+•Date of Service Start 
+
+RM-1554.5: CDAT displays a timeline which shows previous actions performed on the record. The latest action performed is displayed first. 
+   
+RM-1554.6: CDAT allows the user to sort the timeline from newest to oldest and vice versa. 
+
+RM-1554.7: CDAT displays a date and timestamp (MM/DD/YYYY, X:XX AM/PM EST) for each action in the timeline. 
+
+RM-1554.8: CDAT displays comments entered for the escalation case. 
+
+RM-1554.9: CDAT displays the user who entered each comment. 
+
+RM-1554.9: CDAT displays the Escalation ID for each comment. 
+
+RM-1554.10: CDAT provides the option to minimize the comment(s) for each section.</description>
+   <name>RM_1554_Access Details Tab on QA Panel Escalation Case Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b027d579-d113-4f4b-96f2-f367b662c40f</testCaseGuid>
+</TestCaseEntity>

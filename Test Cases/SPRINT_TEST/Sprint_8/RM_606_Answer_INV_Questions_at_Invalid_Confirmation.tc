@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an I-IVC Sr. Evaluator I want to answer the invalidity questions so that the record can be coded correctly. 
+
+Acceptance Criteria: 
+
+RM-606.1 CDAT requires the user to answer all of the following INV questions: 
+• INV 1 Does the medical record correctly identify the sampled beneficiary? 
+• INV 3 Is the name on the medical record an acceptable variance of the name of the sampled beneficiary? 
+• INV 4 Is there a date on the Medical Record? 
+• INV 14 Is the date on the medical record within the data collection period? 
+• INV 5 Is the medical record from a valid source? 
+• INV15 Does the Provider Type of the medical record match the Provider Type selected on the Medical Record Coversheet? 
+• INV 2 Is the medical record signed? 
+• INV 7 Are you able to confirm an acceptable credential/specialty? 
+• INV20 Is the medical record free from invalid issues not otherwise addressed through existing INV checks? 
+
+RM-606.2: CDAT requires the user to select a canned response from the following options or enter a comment when &quot;Other&quot; is selected for each INV question answered as &quot;No&quot;: 
+
+INV1: 
+-Name on coversheet does not match the name on the medical record 
+-No patient name on the record 
+-Different patient name on page 
+-Patient name is the same but birthday is completely different 
+-Other 
+
+INV3: 
+-Name on record is the middle name/maiden name 
+-Not an acceptable name variance 
+-Other 
+
+INV4: 
+-No Date of Service on medical record 
+-Year of service missing on medical record 
+-No valid date of service - only date is signature date/dictation date 
+-Other 
+
+INV14: 
+-Date of service outside data collection period 
+-Other 
+
+INV5: 
+-Invalid Provider Type (RN, LPN, RD, licensed counselor) 
+-Invalid Provider Source (Diagnostic radiology, Home Health) 
+-No face-to-face documented (pacemaker telephonic check) 
+-Other 
+
+INV15: 
+-Observation/Amb surg record incorrectly submitted as IP on CS 
+-Overnight ER stay submitted as IP on CS 
+-Insufficient documentation to support IP medical record (consult only, progress note only, no discharge date in record) 
+-Other 
+
+INV2: 
+-No valid signature in medical record 
+-Signature stamps are not permitted for Medicare record authentication 
+-No valid signature in medical record – valid attestation 
+-No valid signature in medical record – invalid attestation 
+-No valid credential in medical record – no attestation) 
+-Other 
+
+INV7: 
+Are you able to confirm an acceptable credential/specialty? 
+
+RM-606.3: CDAT does not allow INV responses or any comments at Senior Evaluation to be viewed at Invalid Confirmation. 
+
+RM-606.4: CDAT provides the option to answer &quot;Yes&quot; to all INV questions when no invalidity issues have been found. 
+
+RM-606.5: CDAT provides an option for users to add a comment for any INV question answered as &quot;Yes&quot; 
+
+RM-606.6: CDAT allows a maximum limit of 2,000 characters per comment made.</description>
+   <name>RM_606_Answer_INV_Questions_at_Invalid_Confirmation</name>
+   <tag>RM 606</tag>
+   <comment></comment>
+   <testCaseGuid>3e1cf6a4-e50d-4dfe-8701-b2463ceed320</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an I-IVC Sr. Evaluator I want to submit a task so it can be processed at the next step. 
+
+Acceptance Criteria 
+
+RM-611.1: CDAT provides a Complete option on the Invalid Confirmation screen. 
+
+RM-611.2: CDAT displays the following message when the user selects the Complete option: 
+&quot;Are you sure you want to submit? This task cannot be recalled once it has been submitted.&quot; 
+
+RM-611.3: CDAT provides Yes and Cancel options for the user to confirm submission. 
+
+RM-611.4 : If &quot;Yes&quot; is selected the task is submitted. 
+
+RM-611.5: If &quot;Cancel&quot; is selected the user remains on the Invalid Confirmation screen. 
+
+RM-611.6: A record confirmed as invalid at Invalid Confirmation moves to CDAT End. A MR is deemed invalid at Invalid Confirmation when any of the following INV question answers equal No: 
+- 1-5 
+- 7 
+- 14 
+- 15 
+- 17 
+- 20 
+
+RM-611.7: A record deemed valid at Invalid Confirmation moves to Focused Review. A MR is deemed valid at Invalid Confirmation when the following conditions apply: 
+- INV 2 and/or INV 7 equals No, and the MR provider type = P/S/HO/O and; 
+- There is a valid CMS Generated Attestation</description>
+   <name>RM_611_Submit_Task_From_Invalid_Confirmation_Screen</name>
+   <tag>RM 611</tag>
+   <comment></comment>
+   <testCaseGuid>98f79ec8-d152-42c3-b16d-5760341a3767</testCaseGuid>
+</TestCaseEntity>

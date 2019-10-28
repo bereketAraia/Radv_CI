@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Intake user I want to request a task so that I can process it. The submission is locked to the user upon request. 
+
+Acceptance Criteria: 
+
+RM-500.1: CDAT provides a Request Task option. The submission is locked to the user upon request. 
+
+RM-500.2: DELETED 
+
+RM-500.3: CDAT provides the following options (based on exclusion criteria) for a user to select the step they are requesting a task for: 
+
+• Submission Review 
+• Senior Evaluation 
+• Invalid Confirmation 
+• Focused Review (if intake user is also authorized to process FR) 
+
+RM-500.4: A coder who processed a task during Submission Review cannot process the same task at the following steps: 
+- Senior Evaluation 
+- Invalid Confirmation 
+
+RM-500.5: A coder who processed a task during Senior Evaluation cannot process the same task at Invalid Confirmation. 
+
+RM-500.6: A coder who processed a task during Invalid Confirmation cannot process the same task at the following steps: 
+- Focused Review 
+- Discrepant Confirmation 
+
+RM-500.7: CDAT enables the Request Task option when after the user selects the step they are requesting the task for. The user must select a step before the Request Task option is enabled. 
+
+RM-500.8: CDAT adds a task to the user's Queue when the user selects the Request Task option. 
+
+RM-500.9: CDAT increases the number of tasks displayed in the Open tab when the user selects the Request Task option. 
+
+RM-500.10: CDAT displays the following message when the user when the user has 5 tasks at the same step in their queue: 
+
+Please process at least one submission from your queue before requesting another task. 
+
+RM-500.11: CDAT disables the Request Task option when the user has 5 tasks (per step) in their queue. 
+
+RM-500.12: CDAT enables the Request Task option when the number of tasks in their queue is less than 5. 
+
+ RM-500.13: CDAT displays the following message when there are no records available to work on in the queue:  
+
+- There are no records available for request. Please try again later.</description>
+   <name>RM_500_Request Task During Intake</name>
+   <tag>RM 500</tag>
+   <comment></comment>
+   <testCaseGuid>5b4b5c35-0fed-4171-bb0a-f49fcec5b45d</testCaseGuid>
+</TestCaseEntity>

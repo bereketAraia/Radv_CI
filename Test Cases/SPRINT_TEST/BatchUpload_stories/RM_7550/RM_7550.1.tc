@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA contract user I want to access the Manifest Upload screen so that I can submit multiple records at the same time.
+
+
+
+Acceptance Criteria:
+
+
+RM-7550.1: CDAT displays the Manifest Upload screen when a user selects the Batch option on the Enrollee Submission Management screen.</description>
+   <name>RM_7550.1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9af09b97-7baa-4209-a790-e9f4592aaf3d</testCaseGuid>
+</TestCaseEntity>

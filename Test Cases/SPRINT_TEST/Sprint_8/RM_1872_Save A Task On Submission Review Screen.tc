@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an I-RMC user I want to save an open task so that I can keep my changes. 
+
+Acceptance Criteria: 
+
+RM-1872.1: CDAT saves the changes made and displays the following message when the user selects the Save option: 
+
+&quot;Your changes have been saved.&quot; 
+
+RM-1872.2: CDAT reloads the same data when a user who previously saved it returns to work on the task later. 
+
+RM-1872.3: CDAT reloads the same data when a user toggles between tabs within the same record.</description>
+   <name>RM_1872_Save A Task On Submission Review Screen</name>
+   <tag>RM 1872</tag>
+   <comment></comment>
+   <testCaseGuid>c9d6f874-272d-40de-b7a5-bb020038e946</testCaseGuid>
+</TestCaseEntity>

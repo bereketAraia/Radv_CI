@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Intake Sr Evaluator I want to confirm if a medical record is non-compliant so that I can select all issues associated with it. 
+
+Acceptance Criteria: 
+
+RM-2201.1: CDAT displays an Electronic Medical Record (EMR) field which is selected by default and allows the user to deselect it if the record is not an EMR 
+
+RM-2201.2: CDAT requires the user to respond to the following question: 
+
+Are there any issues with the medical record? 
+
+RM-2201.3: CDAT provides &quot;Yes&quot; and &quot;No&quot; options for the user to respond to the question which triggers the following non-compliant reasons to display when “Yes” is selected: 
+
+• Copy quality 
+• Multiple dates of service on continuous page or inpatient record 
+• Multiple records with one coversheet 
+• Pages out of order 
+• Possible altered medical record 
+• Possible PHI/PII issue (REMOVED. NEEDS TO BE ADDED TO THE ESCALATION REASON SCREEN INSTEAD) 
+• Other</description>
+   <name>RM_2201_Confirm If Medical Is Non Compliant on Senior Evaluation Screen</name>
+   <tag>RM 2201</tag>
+   <comment></comment>
+   <testCaseGuid>b20c9429-36cd-48f0-82c0-d870ce629044</testCaseGuid>
+</TestCaseEntity>

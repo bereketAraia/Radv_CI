@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an existing MA contract user I want to register an account for a new sample in CDAT so that my account can be activated for the sample. 
+
+Acceptance Criteria: 
+
+RM-3651.1: CDAT requires the user to enter the following information: 
+
+• First Name 
+• Last Name 
+• Email Address 
+
+RM-3651.2: CDAT validates the information against a database of usernames and email addresses provided by the Communications Contractor. 
+
+RM-3651.3: If the account is disabled, CDAT verifies if the user already had an account from a previous audit and updates the active directory account information to enable it. The user receives an email after 24 hours of registration to confirm that their account has been activated.</description>
+   <name>RM_3651_MA Contract User Account Activation for New Sample</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81a0d05e-925c-4570-9f7c-73fd4735905d</testCaseGuid>
+</TestCaseEntity>

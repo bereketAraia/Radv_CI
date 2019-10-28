@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a QA Panel user I want to conduct a search so I can view escalation cases. 
+
+Acceptance Criteria: 
+
+RM-1552.1: CDAT displays the following message until the user conducts a search: 
+Please conduct a search to see results. 
+
+RM-1552.2: CDAT provides a Search option with the following criteria: 
+•	Escalation Case ID 
+•	Coversheet ID 
+• User Name 
+•	HMOID 
+•	Date (MM/DD/YYYY) 
+
+RM-1552.3: Escalation Case information does not display until a search is conducted. The following Escalation Case information is displayed: 
+•	ESC. Case ID 
+•	Coversheet ID 
+•	Status (Open; QA Reset; Complete) 
+•	Date Escalated 
+•	Step 
+•	More 
+o	Escalation Submitted By: User Name 
+o	Comment 
+o	HMOID 
+o	Last Modified By: User Name 
+o	Last Modified On: MM/DD/YYYY XX:XX AM/PM 
+o	PM Reset or QA Reset as applicable 
+
+RM-1552.4: CDAT provides a &quot;Clear Filters&quot; option for the user to cancel previous searches. 
+
+RM-1552.5: All Competed Escalation cases are displayed at the bottom of the Search results.</description>
+   <name>RM_1552_Conduct Search on QA Panel Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f598cc9-642f-4a22-bf5c-b7da3503fdde</testCaseGuid>
+</TestCaseEntity>

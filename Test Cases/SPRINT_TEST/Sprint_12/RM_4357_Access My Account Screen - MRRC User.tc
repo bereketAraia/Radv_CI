@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a MRRC user I want to access the My Account screen so that I can make updates.
+
+Acceptance Criteria:
+
+RM-4357.1: Given that the user has successfully logged in CDAT provides a My Account option.
+
+RM-4357.2: CDAT displays the following header information when the user selects the My Account option:
+
+• Username
+• Name
+• MRRC Organization
+
+RM-4357.3: CDAT displays the following contact information on the My Account screen:
+• Email
+• Phone - Editable
+
+RM-4357.4: CDAT displays a Security Question. The security question is blank upon first log in and the user is required to select one from a list of questions.</description>
+   <name>RM_4357_Access My Account Screen - MRRC User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2064d811-6a4d-480a-b2d9-0900650c6365</testCaseGuid>
+</TestCaseEntity>

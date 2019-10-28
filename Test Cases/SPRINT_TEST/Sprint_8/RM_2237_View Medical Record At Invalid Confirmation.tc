@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an I-IVC Sr. Evaluator I want to view a medical record so that I can respond to INV questions correctly. 
+
+Acceptance Criteria: 
+
+RM-2237.1: CDAT requires the user to view the PDF submission before enabling the screen before enabling the screen for the user to process the submission. The only option enabled before the user views the record is Exit. 
+
+RM-2237.2: CDAT displays the following message until the user has viewed the PDF submission: 
+
+You must view the record before you can review this task. 
+
+RM-2237.3: After the user has viewed and saved the record, they do not have to view it again if they were to close and reopen the task. 
+
+RM-2237.4: If the user only views but does not save the record and exits, CDAT will require the user to view the record again when they return to the screen.</description>
+   <name>RM_2237_View Medical Record At Invalid Confirmation</name>
+   <tag>RM 2237</tag>
+   <comment></comment>
+   <testCaseGuid>3d4f19db-cef7-4186-8b63-7447712bbad2</testCaseGuid>
+</TestCaseEntity>

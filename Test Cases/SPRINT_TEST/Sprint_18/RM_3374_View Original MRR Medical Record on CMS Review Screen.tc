@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a CMS user I want to view the original MRR medical record and Coversheet associated with the MRRD appeal so that I can see the MA contract's submission without any manipulations.
+
+Acceptance Criteria:
+
+RM-3374.1: CDAT displays the original MRR medical record and Coversheet associated with the MRRD appeal when the user selects the View MA Submission option on the Details or Respond tabs on the CMS Review screen.</description>
+   <name>RM_3374_View Original MRR Medical Record on CMS Review Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>812ae777-c73d-45bb-ac1a-b51985c3b8ae</testCaseGuid>
+</TestCaseEntity>

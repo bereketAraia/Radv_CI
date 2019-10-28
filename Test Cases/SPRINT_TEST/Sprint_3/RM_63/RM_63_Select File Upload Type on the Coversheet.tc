@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to select the type of medical record I am submitting so that the correct coding guidelines are applied to my submission. 
+
+Acceptance Criteria: 
+
+RM-63.1: CDAT requires the user to select the upload type from the following options: 
+• Medical Record 
+• Medical Record AND CMS-generated Attestation 
+• No Medical Record (when the No MR option is selected then the list of selectable CMS-HCCs should only display the CMS-HCCs that do not have an active medical record associated) 
+
+RM-63.2: CDAT requires the user to attach a Medical Record file prior to submitting the coversheet upon selecting one of the following upload types: 
+• Medical Record 
+• Medical Record AND CMS-generated Attestation 
+
+RM-63.3: CDAT accepts files which meet the following criteria: 
+• Document must be in PDF format 
+• Not more than 100 MB in size (may change depending on CMS direction) 
+
+RM-63.4: CDAT displays the following message when the user attempts to upload a file that is not in PDF format: 
+
+&quot;Invalid file format. Please attach a PDF file.&quot; 
+
+RM-63.5: CDAT displays the following message when the user attempts to upload a file that is more than 100 MB: 
+
+&quot;Invalid file size. A file cannot be larger than 100 MB.&quot; 
+
+RM-63.6: CDAT disables the No Medical Record option when the user has linked all audited CMS-HCC's to submitted coversheets. 
+
+RM-63.7: CDAT provides an option for the user to select CANCEL. 
+
+RM-63.8: CDAT displays the following message when a user selects CANCEL: 
+&quot;If you proceed with cancelling, this Coversheet will not be saved.&quot; The user is required to select &quot;Proceed with Cancel&quot; or &quot;Resume Coversheet.&quot; 
+
+RM-63.9: CDAT takes the user back to the Submission Management screen without saving the coversheet when the user selects &quot;Proceed with Cancel&quot;. 
+
+RM-63.10: CDAT keeps the user on the Coversheet screen if the user selects &quot;Resume Coversheet&quot;. 
+
+RM-63.11: CDAT enables the NEXT option when the user completes the Upload Type section of the coversheet (Guided Form only). Next takes the user to the next screen/section on the guided coversheet.</description>
+   <name>RM_63_Select File Upload Type on the Coversheet</name>
+   <tag>RM 63</tag>
+   <comment></comment>
+   <testCaseGuid>2b16448a-8475-4684-95dd-f8dca93e8cd4</testCaseGuid>
+</TestCaseEntity>

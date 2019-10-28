@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Discrepant Confirmation Coder I want to access the Code MR tab so I can perform coding of the medical record. 
+
+Acceptance Criteria: 
+
+RM-1042.1: CDAT displays the following header information on the Code MR tab: 
+•Coversheet ID 
+•CHIC 
+•RRBHIC 
+
+RM-1042.2: CDAT provides the following options on the Code MR tab: 
+•View Submission - allows the user to view the submitted coversheet, attestation, if applicable and medical record) 
+•Exit - returns user to the Open tab on the CCQ 
+•Escalate - sends the task to the ER Sr. Coder 
+•Save - saves the user's work 
+•Complete - saves and submits the task to the next step 
+
+RM-1042.3: CDAT displays the Audited CMS-HCCs for the enrollee. 
+
+RM-1042.4: CDAT allows the user to view associated ICD-9 codes by selecting the audited CMS-HCC. 
+
+RM-1042.4: CDAT indicates if a CMS-HCC is part of a hierarchy. 
+
+RM-1042.5: CDAT provides an Encoder tool option. 
+
+RM-1042.6: CDAT provides an option to indicate if no ICD-9 codes are found in the submission. 
+
+RM-1042.7: CDAT provides an option for the user to enter comments.</description>
+   <name>RM_1042_Access Code MR Tab on Discrepant Confirmation Screen</name>
+   <tag>RM 1042</tag>
+   <comment></comment>
+   <testCaseGuid>70dc2e01-7ec8-428e-9718-c0e22b5abf45</testCaseGuid>
+</TestCaseEntity>

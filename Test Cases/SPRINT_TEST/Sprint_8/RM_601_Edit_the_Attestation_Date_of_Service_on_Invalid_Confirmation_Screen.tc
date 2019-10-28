@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an I-IVC Sr. Evaluator I want to change the date of service so that I can match it to the date on the Attestation. 
+
+Acceptance Criteria: 
+
+RM-601.1: CDAT displays the Attestation Date. 
+
+RM-601.2: CDAT allows the user to edit the Attestation Date of Service. The user can edit the month, day or year. 
+
+RM-601.3: CDAT requires the user to enter the correct date format, MM/DD/YYYY. 
+
+RM-601.4: CDAT displays the following message when a user enters an incorrect date format: 
+
+-Invalid date entered. Date must be in MM/DD/YYYY format. 
+
+RM-601.5: CDAT does not display the Attestation Date of Service when the user confirms that No Attestation exists.</description>
+   <name>RM_601_Edit_the_Attestation_Date_of_Service_on_Invalid_Confirmation_Screen</name>
+   <tag>RM 601</tag>
+   <comment></comment>
+   <testCaseGuid>c22a1579-b5c4-4fca-94cf-fa208fd59134</testCaseGuid>
+</TestCaseEntity>

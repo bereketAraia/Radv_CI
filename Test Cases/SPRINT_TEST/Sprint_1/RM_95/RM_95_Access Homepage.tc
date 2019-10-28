@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to access the Homepage so that I can select the RADV sample year for my submissions. 
+
+Acceptance Criteria: 
+
+RM-95.1: CDAT defaults to the most current Contract sample year that the user is authorized to access upon login. 
+
+RM-95.2: CDAT displays announcements specific to the current Contract sample year that the user is authorized to access upon login. 
+
+RM-95.3: CDAT provides an option for the user to select the sample year that they are authorized to access. The user can make the selection from all available authorized sample years. 
+
+RM-95.4: CDAT displays announcements specific to the selected sample.</description>
+   <name>RM_95_Access Homepage</name>
+   <tag>RM 95</tag>
+   <comment></comment>
+   <testCaseGuid>41f7e0ed-8525-4e0c-bf98-a23f133177c2</testCaseGuid>
+</TestCaseEntity>

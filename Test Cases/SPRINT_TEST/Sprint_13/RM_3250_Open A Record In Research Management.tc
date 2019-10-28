@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Research Management user I want to open a submission so that I can see its life cycle to date. 
+
+Acceptance Criteria: 
+
+RM-3250.1: Given that the user has selected the Coversheet ID of a record CDAT allows authorized users to view the same record concurrently in the RM. All actions performed on a task at different process steps are displayed. 
+
+RM-3250.2: CDAT allows any user with Coding and Export access to view tasks processed by any MRRC organization during Intake, Focused Review or Discrepant Confirmation. 
+
+RM-3250.3: CDAT allows PM users with MR and Coding access to view tasks processed by their MRRC organization during Intake, Focused Review or Discrepant Confirmation.</description>
+   <name>RM_3250_Open A Record In Research Management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15c2e7b3-7758-4204-b649-8dd881ef69ac</testCaseGuid>
+</TestCaseEntity>

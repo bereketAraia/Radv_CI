@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Discrepant Confirmation Coder I want to open the Encoder Tool so that I can code a medical record. 
+
+Acceptance Criteria: 
+
+RM-1045.1: CDAT requires the user to view the medical record submission before the Encoder Tool is enabled. 
+
+RM-1045.2: CDAT returns all ICD codes entered into the Encoder tool. 
+
+RM-1045.3: CDAT displays the ICD codes mapping to 2013/2014 CMS-HCCs. If an ICD-9 code does not map to a CMS-HCC CDAT displays a value of &quot;none&quot;. 
+
+RM-1045.4: CDAT displays Additional CMS-HCCs separate from Audited CMS-HCCs. 
+
+RM-1045.5: CDAT provides the option to sort by CMS-HCC. 
+
+RM-1045.6: CDAT provides the option to enter a comment for each returned ICD-9 code. 
+
+RM-1045.7: CDAT provides the option to Delete a returned ICD-9 code(s). CDAT displays the following message when a user wants to delete a returned ICD-9 code: 
+Are you sure you want to delete this code? 
+
+RM-1045.8: CDAT provides Cancel and Proceed with delete options. Cancel retains the ICD-&quot;X&quot; code(s). &quot;Proceed with delete&quot; removes the selected ICD code(s).</description>
+   <name>RM_1045_Launch Encoder Tool in Discrepant Confirmation</name>
+   <tag>RM 1045</tag>
+   <comment></comment>
+   <testCaseGuid>1547bf11-d5f1-4530-a866-dee49e30fb88</testCaseGuid>
+</TestCaseEntity>

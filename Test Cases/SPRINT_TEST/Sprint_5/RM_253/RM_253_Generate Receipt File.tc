@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to view the Receipt file so I can look at submissions for an enrollee.
+
+Acceptance Criteria: 
+  
+RM-253.1: CDAT enables the Download CMS Receipt file option on the Enrollee Submission Management screen when a user marks the enrollee as complete. 
+
+RM-253.2: CDAT provides the user the following options when they select Download CMS Receipt: 
+Open - Opens the CMS Receipt PDF file 
+Save - Saves the CMS Receipt PDF file to a location on the user’s hard drive 
+Cancel – The user remains on the Enrollee Submission Management screen 
+
+RM-253.3: CDAT displays the unranked submissions (i.e. submissions with “No MR” submitted), below the ranked submissions on the CMS Receipt file. The ranked submissions display in order of priority (1 is the highest rank and will display first). 
+
+RM-253.4: CDAT displays the following information on the CMS Receipt file: 
+Header: 
+HMOID 
+Enrollee ID 
+Uploads Available 
+Uploads Remaining 
+Last Ranked By &lt;Name> on &lt;Date, Time X:XX AM/PM> 
+Completed By &lt;Name> on &lt;Date, Time X:XX AM/PM> 
+CMS-HCCs 
+
+Columns: 
+Rank 
+Coversheet ID 
+Upload Type 
+CMS-HCCs Submitted 
+File Format Issue 
+Submission User 
+Submission Date 
+Filename 
+
+Footer: 
+1. The submitted medical record is either password protected or encrypted. 
+2. The submitted medical record is an Invalid PDF File Format. 
+3. The submitted medical record does not allow page rotations. 
+4. The submitted medical record does not allow pages to be deleted. 
+5. The submitted medical record does not allow merging with the Coversheet PDF. 
+6. The submitted medical record contains binders, bookmarks, or other embedded containers 
+7. An unidentifiable issue was encountered with the medical record. 
+8. The submitted medical record failed a virus scan. 
+
+RM-253.5: CDAT disables the CMS Receipt file option after the submission deadline has passed. (THIS NEEDS TO BE DELETED IF NO ONE DISAGREES)</description>
+   <name>RM_253_Generate Receipt File</name>
+   <tag>RM 253</tag>
+   <comment></comment>
+   <testCaseGuid>5323e6ed-b739-42a9-82ed-e9dbe241dd7a</testCaseGuid>
+</TestCaseEntity>

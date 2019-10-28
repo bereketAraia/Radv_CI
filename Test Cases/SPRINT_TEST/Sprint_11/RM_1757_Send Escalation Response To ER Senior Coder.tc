@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a QA Panel Editor I want to return an escalation case back to the user who submitted it so that they can see my resolution. 
+
+Acceptance Criteria: 
+
+RM-1757.1: CDAT provides a Send Response option on the Escalation Case screen. 
+
+
+RM-1757.2: The QA Panel Editor is required to enter a response before submitting the task back to the ER Senior Coder who escalated it. CDAT provides an escalation reason comments textbox which displays the following message until a user enters an escalation reason response: 
+
+ &quot;Type comments here. 2000 character limit.&quot; 
+
+RM-1757.3: CDAT displays the following message when the user selects the Send Response option: 
+&quot;Are you sure you want to submit? This task cannot be recalled once it has been submitted.&quot; 
+
+RM-1757.4: CDAT provides a &quot;Continue Working&quot; option for the user to resume processing a task without escalating sending an escalation response. 
+
+RM-1757.5: CDAT provides a &quot;Send Response&quot; option which sends the task back to the ER Senior Coder when selected and an escalation reason response has been entered. 
+
+RM-1757.6: CDAT sends the user back to their QA Panel Queue Open tab after submitting an escalation case.</description>
+   <name>RM_1757_Send Escalation Response To ER Senior Coder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea6af6a4-6e60-4213-b0b1-394a38b04399</testCaseGuid>
+</TestCaseEntity>

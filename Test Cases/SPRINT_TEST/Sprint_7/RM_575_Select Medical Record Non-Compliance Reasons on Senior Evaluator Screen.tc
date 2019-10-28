@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Intake Sr Evaluator I want to select invalidity options associated with the medical record so that the task can be processed correctly. 
+
+Acceptance Criteria: 
+
+RM-575.1: CDAT requires the user to select a reason when a medical record is deemed non-compliant from one of the following options: 
+•	Copy quality 
+•	Multiple dates of service on continuous page or inpatient record 
+•	Multiple records with one coversheet 
+•	Pages out of order 
+•	Possible altered medical record 
+•	Possible PHI/PII issue 
+•	Other 
+RM-575.2: CDAT allows the user to select more than one medical record compliance reason at a time.
+
+RM-575.3: CDAT requires the user to enter a comment when &quot;Other&quot; is selected. 
+
+RM-575.4: CDAT provides the option to enter a comment when a medical record compliance reason is selected. 
+
+RM-575.5: CDAT allows a maximum limit of 2,000 characters per comment made.</description>
+   <name>RM_575_Select Medical Record Non-Compliance Reasons on Senior Evaluator Screen</name>
+   <tag>RM 575</tag>
+   <comment></comment>
+   <testCaseGuid>cee9a814-1d40-4c9b-b059-c746f254e0fd</testCaseGuid>
+</TestCaseEntity>

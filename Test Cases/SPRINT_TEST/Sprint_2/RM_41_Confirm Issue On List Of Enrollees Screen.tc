@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to know if an issue exists for an enrollee's medical record so I can correct it. 
+
+Acceptance Criteria: 
+
+RM-41.1: CDAT populates the Issue column on the List of Enrollees screen after Intake is complete with the following values: 
+•	Yes – when any of the submissions have an Issue 
+•	No - when none of the submissions have an issue for the enrollee 
+•	&lt;blank> - when any submission's validity has not yet been determined. 
+
+NOTE: THIS USER STORY CANNOT BE FULLY TESTED UNTIL THE ENTIRE INTAKE MODULE IS BUILT. TO TEST THIS FOR SPRINT 2 JUST VERIFY THAT THE ISSUE COLUMN EXISTS ON THE LIST OF ENROLLEES SCREEN.</description>
+   <name>RM_41_Confirm Issue On List Of Enrollees Screen</name>
+   <tag>RM 41</tag>
+   <comment></comment>
+   <testCaseGuid>5d4479d1-ebcc-4761-ae51-4f4978dbe2cd</testCaseGuid>
+</TestCaseEntity>

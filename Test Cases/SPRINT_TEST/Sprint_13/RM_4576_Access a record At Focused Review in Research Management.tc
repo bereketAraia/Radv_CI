@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Research Management user I want to view a record at Focused Review so that I can see how it was processed at this step. 
+
+Acceptance Criteria: 
+
+RM-4576.1: CDAT displays a read only version of the record after the user conducts a search and selects the Coversheet ID of a record at Focused Review. 
+
+RM-4576.2: CDAT displays the equivalent values of the record at Focused Review for the following information: 
+
+•	Enrollee Name 
+•	Enrollee DOB 
+•	Enrollee ID 
+•	Coversheet ID 
+•	MA Organization 
+•	HMOID 
+•	CHIC 
+•	RRBHIC 
+•	MBI 
+•	Audited CMS-HCCs 
+•	Selected CMS-HCC(s) 
+•	No ICD-X codes found in this submission indicator 
+•	Any optional comments entered by the user at Focused Review 
+
+RM-4576.3: CDAT displays a timeline of each action performed on the record. For example if the record is escalated at Focused Review, CDAT will display the name of the user who escalated the record, ESC Case ID, and Reason for Escalation.</description>
+   <name>RM_4576_Access a record At Focused Review in Research Management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>56d740d2-dec9-490b-9356-6b3429e706be</testCaseGuid>
+</TestCaseEntity>

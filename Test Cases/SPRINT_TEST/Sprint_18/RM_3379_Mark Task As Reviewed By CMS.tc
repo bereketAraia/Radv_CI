@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a CMS user I want to mark a task as reviewed so that people can know that it has been assessed by CMS.
+
+Acceptance Criteria:
+
+RM-3379.1: CDAT provides a Mark As Reviewed option for the user to indicate that a CMS review was conducted.
+
+RM-3379.2: CDAT moves the task to the Reviewed tab on the MRRD Management screen when the user selects the Mark As Reviewed option.</description>
+   <name>RM_3379_Mark Task As Reviewed By CMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ddbebec7-3b3f-401c-ad32-dd34f0a1ed4c</testCaseGuid>
+</TestCaseEntity>

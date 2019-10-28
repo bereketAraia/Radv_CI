@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a CMS user I want to view the manipulated MRR medical record and Coversheet associated with the MRRD appeal so that I can use the information to review the task.
+
+Acceptance Criteria:
+
+RM-3373.1: CDAT displays the manipulated MRR medical record and Coversheet (page-numbered) associated with the MRRD appeal when the user selects View Medical Record option the Details or Review tabs on the CMS Review screen.</description>
+   <name>RM_3373</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b28f1a34-9c20-42ac-acb7-22e95f4bf229</testCaseGuid>
+</TestCaseEntity>

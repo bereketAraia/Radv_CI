@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Discrepant Confirmation Coder I want to save an open task so that I can keep my changes. 
+
+Acceptance Criteria: 
+
+RM-2766.1: CDAT saves the changes made and displays the following message when the user selects the Save option: 
+
+&quot;Your changes have been saved.&quot; 
+
+RM-2766.2: CDAT reloads the same data when a user who previously saved it returns to work on the task later. 
+
+RM-2766.3: CDAT reloads the same data when a user toggles between tabs within the same record.</description>
+   <name>RM_2766_Save A Task On Discrepant Confirmation Screen</name>
+   <tag>RM 2766</tag>
+   <comment></comment>
+   <testCaseGuid>fbd336de-903d-4198-a565-202d360f3842</testCaseGuid>
+</TestCaseEntity>

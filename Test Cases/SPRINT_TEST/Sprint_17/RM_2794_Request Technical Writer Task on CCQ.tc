@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Technical Writer I want to request a task so that I can review it. 
+
+Acceptance Criteria: 
+
+RM-2794.1: CDAT provides an option to Request Task from any tab on the CCQ. 
+
+RM-2794.2: The user is required to select a step before the Request Task option is enabled. 
+
+RM-2794.3: CDAT adds a task to the user's Open tab when the user selects the Request Task option. 
+
+RM-2794.4: CDAT increases the number of tasks displayed in the Open tab when the user selects the Request Task option. For example if the user has three tasks in their queue and requests another task, the number changes from three to four. 
+
+RM-2794.5: Any coder who requested a task during any of the following steps except for escalation and QA Panel cannot request it at the Technical Writer step: 
+
+•	Senior Evaluation 
+•	Invalid Confirmation 
+•	Focused Review 
+•	Discrepant Confirmation 
+•	MRRC Senior Coder (for the same task) 
+•	Any user that CMS cross references from being assigned to the task</description>
+   <name>RM_2794_Request Technical Writer Task on CCQ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af7c6ac7-6d25-4a7d-953a-f1060ecfc2c8</testCaseGuid>
+</TestCaseEntity>

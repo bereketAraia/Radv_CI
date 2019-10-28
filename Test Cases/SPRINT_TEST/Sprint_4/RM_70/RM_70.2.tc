@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RM-70.2: CDAT displays the following message when a user selects the &quot;Remove Coversheet&quot; option:
+
+- &quot;Are you sure you want to remove this coversheet? You will no longer have access to the coversheet or any associated attachments.&quot; </description>
+   <name>RM_70.2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>341e0763-fa5b-467b-8a48-d622d1e8df8d</testCaseGuid>
+</TestCaseEntity>

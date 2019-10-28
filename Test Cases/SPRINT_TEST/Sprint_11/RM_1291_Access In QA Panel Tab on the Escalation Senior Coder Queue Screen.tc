@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an ER. Senior Coder I want to access the In QA Panel tab on the Escalation Senior Coder Queue screen so I can see my escalated tasks. 
+
+Acceptance Criteria: 
+
+RM-1291.1: CDAT displays all tasks escalated to the QA Panel by the user when the user selects the In QA tab on the Escalation Senior Coder Queue screen. 
+
+RM-1291.2: CDAT displays the number of tasks in the In QA Panel. 
+
+RM-1291.3: CDAT displays the following fields on the In QA tab on the Escalation Senior Coder Queue tab: 
+• Escalation ID 
+• Coversheet ID 
+• Date Escalated 
+• Step 
+• More which displays the following information when selected: 
+- Submitted By (LastName, FirstName) 
+- Escalation Reason Comment 
+
+RM-1291.4: CDAT provides an option to search for all escalation cases. Selecting this option directs the user to the Advanced Search screen. 
+
+RM-1291.5: Records in the In QA tab cannot be opened until they are returned to the ER. Senior Coder's Open tab. CDAT marks the record as Returned from QA Panel. 
+
+RM-1291.6: CDAT provides a Request Escalation option on the QA tab.</description>
+   <name>RM_1291_Access In QA Panel Tab on the Escalation Senior Coder Queue Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce75c9b1-cce5-47ca-83f7-3615e3aac471</testCaseGuid>
+</TestCaseEntity>

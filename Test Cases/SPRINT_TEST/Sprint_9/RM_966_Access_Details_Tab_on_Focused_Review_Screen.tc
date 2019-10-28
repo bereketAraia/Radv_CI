@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Focused Review Coder I want to access the Details tab for a task on the Focused Review screen so that I can view Intake history for the record I want to process. 
+
+Acceptance Criteria: 
+
+RM-966.1: CDAT allows the user to open a Focused Review task by selecting the Coversheet ID in the Open Tab of the Central Coder Queue. 
+
+RM-966.2: CDAT directs the user to the Focused Review screen after the coder has selected a task to work on. The Focused Review screen displays the following tabs: 
+•Details (displayed by default) - Details tab is read only. 
+•Code MR 
+
+RM-966.3: CDAT provides an View Submission option for the user to view medical record documentation. 
+
+RM-966.4: The Details tab displays the following header information: 
+•Coversheet ID 
+•Enrollee ID 
+•Enrollee Name 
+•Corrected Name 
+• Enrollee DOB 
+•Corrected DOB 
+•Provider Type 
+•Date of Service Start 
+•Date of Service End 
+-CHIC 
+-RRBHIC 
+
+RM-966.5: CDAT provides an option to filter by the following fields: 
+• Submission Review 
+• Senior Evaluation 
+• Invalid Confirmation 
+• Escalation 
+• Escalation Resolution 
+• PM Reset 
+
+RM-966.6: CDAT displays a timeline which shows previous actions performed on the record. The latest action performed is displayed first. Note: The complete life cycle of the record is shown in Research Management. The details tab will only display comments by step based on user exclusions. 
+
+RM-966.7: CDAT allows the user to sort the timeline from newest to oldest and vice versa. 
+
+RM-966.8: CDAT displays a date and timestamp (MM/DD/YYYY, X:XX AM/PM EST) for each action in the timeline. 
+
+RM-966.9: CDAT displays the following comments when applicable: 
+• All comments and escalation related comments from Submission Review, Senior Evaluation and Invalid Confirmation 
+• QA Panel Reset comments 
+• PM Reset comment if the record was PM Reset at Focused Review 
+
+RM-966.10: CDAT displays the user who entered each comment. 
+
+RM-966.11: CDAT provides the option to minimize the comment(s) for each section.</description>
+   <name>RM_966_Access_Details_Tab_on_Focused_Review_Screen</name>
+   <tag>RM 966</tag>
+   <comment></comment>
+   <testCaseGuid>af40dbce-6ca8-431d-bd31-668047fb36c8</testCaseGuid>
+</TestCaseEntity>

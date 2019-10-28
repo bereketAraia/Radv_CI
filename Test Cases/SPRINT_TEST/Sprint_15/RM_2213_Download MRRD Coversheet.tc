@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA contract user I want to download the MRRD coversheet so that I can view what I have submitted. 
+
+Acceptance Criteria: 
+
+RM-2213.1: CDAT enables the Download Coversheet option after the user submits the MRRD coversheet. 
+
+RM-2213.2: CDAT allows the MA contract user to download the coversheet in PDF format from the Medical Record Review Determination Coversheet screen. A user can view the submitted information after the submission period has elapsed.</description>
+   <name>RM_2213_Download MRRD Coversheet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>282d14c1-cb75-485f-bb7e-b7e150f5dc4c</testCaseGuid>
+</TestCaseEntity>

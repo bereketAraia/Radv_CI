@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a MRRC Senior Coder I want to submit a task so it can be processed at the next step. 
+
+Acceptance Criteria 
+
+RM-2732.1: CDAT provides a Send Response option on the MRRC Senior Coder screen. 
+
+RM-2732.2: CDAT displays the following message when the user selects the Send Response option: 
+&quot;Are you sure you want to submit? This task cannot be recalled once it has been submitted.&quot; 
+
+RM-2732.3: CDAT provides Send Response and Continue Working options for the user to confirm submission. 
+
+RM-2732.4 : If &quot;Send Response&quot; is selected the task is submitted to the Technical Writer queue. 
+
+RM-2732.5: If &quot;Continue Working&quot; is selected the user remains on the MRRC Senior Coder screen.</description>
+   <name>RM_2732_Submit Task From MRRC Senior Coder Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2fdeefac-e275-405d-a33c-cf23106c5d8a</testCaseGuid>
+</TestCaseEntity>

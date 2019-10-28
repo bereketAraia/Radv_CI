@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to access the Plan Library so that I can view CMS reference documents for a specific sample year that I am authorized to view. 
+
+Acceptance Criteria: 
+
+RM-30.1: CDAT provides an option for the user to access the Plan Library from any screen within the application for the specific sample year selected. The user does not need to accept the terms and conditions before being allowed to view the library. 
+
+RM-30.2: CDAT displays the following information for materials that the user is authorized to view which are available for download: 
+
+-Title 
+-Description 
+-Upload Date (MM/DD/YYYY format) 
+
+RM-30.3: CDAT displays the materials in reverse chronological order so that the newest document is displayed first, by upload date. 
+
+RM-30.4: CDAT provides the user with an option to change the order in which the material can be viewed during the current session. 
+
+RM-30.5: CDAT provides an option for the user to return to the screen from which they accessed the Library. For example if the user accessed the Library from the Plan Portal then the option should be Back to Plan Portal&quot;. If the user accessed the library from the Enrollee Submission Management screen then the option should say &quot;Back to Enrollee Submission Management&quot;.</description>
+   <name>RM_30_Access Plan Library</name>
+   <tag>RM 30</tag>
+   <comment></comment>
+   <testCaseGuid>9f50da15-7953-4bbc-9cf8-c083b1eda129</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Focused Review Coder I want to access the In Escalation Tab on the Central Coder Queue so I can see my escalated tasks. 
+
+Acceptance Criteria: 
+
+RM-985.1: CDAT displays all tasks escalated by the user when the user selects the In Escalation Tab on the Central Coder Queue tab. 
+
+RM-985.2: CDAT displays the following fields on the In Escalation Tab on the Central Coder Queue tab: 
+Progress (Value: In Progress) 
+• Coversheet ID 
+• Submission Date (date submitted by plan user) 
+• Step 
+• More which displays the following information when selected: 
+- Date Escalated (MM/DD/YYYYY and time XX:XX AM EST) 
+- Enrollee ID 
+
+RM-985.3: CDAT provides a Search by Coversheet ID option (supports partial search functionality). 
+
+RM-985.4: CDAT displays the following message when a search returns no results: 
+&quot;No results found&quot; 
+
+RM-985.5: Records in escalation cannot be opened until they are returned to the users Queue. CDAT marks the record as Returned from Escalation. 
+
+RM-985.6: CDAT provides an option to Request a Task from the In Escalation tab. The user has an option to select the step for which they are requesting a task.</description>
+   <name>RM_985_Access Focused Review In Escalation Tab on the Central Coder Queue Screen</name>
+   <tag>RM 985</tag>
+   <comment></comment>
+   <testCaseGuid>6018f1e0-c609-4645-b311-d38f3b8af582</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RM-286.2: CDAT requires the user to enter a date of service for an Outpatient visit type.</description>
+   <name>RM_286_2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d625e10b-7c2d-4fdd-bfdd-20e7d746006e</testCaseGuid>
+</TestCaseEntity>

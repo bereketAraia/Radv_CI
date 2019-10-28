@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Intake Sr Evaluator I want to confirm if a CMS-generated attestation contains errors so that I can select all issues associated with it. 
+
+Acceptance Criteria: 
+
+RM-1460.1: CDAT requires the user to respond to the following question: 
+
+Are there any issues with the CMS-generated Attestation? 
+
+RM-1460.2: CDAT provides &quot;Yes&quot; and &quot;No&quot; options for the user to respond to the question. 
+
+RM-1460.3: CDAT keeps the following attestation invalid reasons disabled unless the user responds &quot;Yes&quot; to the attestation issues questions: 
+
+•Attestation altered 
+•Attestation incomplete 
+•Date of service mismatch 
+•Incorrect enrollee 
+•Inpatient record 
+•Other</description>
+   <name>RM_1460_Confirm If CMS-Generated Attestation Has Issues on Senior Evaluation Screen</name>
+   <tag>RM 1460</tag>
+   <comment></comment>
+   <testCaseGuid>ed76ca85-73ef-4f4f-8cf1-40b77d35b7dc</testCaseGuid>
+</TestCaseEntity>

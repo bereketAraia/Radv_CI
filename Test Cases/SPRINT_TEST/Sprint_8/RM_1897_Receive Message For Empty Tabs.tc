@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a MRRC user I want to see a message when tabs on the CCQ are empty so that I can be informed. 
+
+Acceptance Criteria: 
+
+RM-1897.1 CDAT displays the following message when there no tasks in the Open tab on the CCQ:: 
+Request a task to add to your open queue. 
+
+RM-1897.2: CDAT displays the following message when there no tasks in the In Escalation tab on the CCQ: 
+
+You have no escalated tasks. 
+
+RM-1897.3: CDAT displays the following message when there no tasks in the In Completed tab on the CCQ: 
+
+You have no completed tasks.</description>
+   <name>RM_1897_Receive Message For Empty Tabs</name>
+   <tag>RM 1897</tag>
+   <comment></comment>
+   <testCaseGuid>2750e484-27e1-43d5-a536-628e5283600e</testCaseGuid>
+</TestCaseEntity>

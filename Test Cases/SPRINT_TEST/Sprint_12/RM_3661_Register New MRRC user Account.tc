@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a new MRRC user I want to register in CDAT so that I can create a new account.
+
+Acceptance Criteria:
+
+RM-3661.1: CDAT requires the user to enter the following information:
+
+• First Name
+• Last Name
+• Email Address
+
+RM-3661.2: CDAT validates the information against a database of usernames and email addresses provided by the MRRC organization to verify if the user already had an account from a previous audit.
+
+RM-3661.3: CDAT requires the user to provide the following information if the user does not have an account from a previous audit :
+
+• Primary Phone Number
+• Secondary Phone Number - Remove
+• MRRC organization - Users should not be able to select that. We should know and be prepopulated from POC template
+• Select a four-digit PIN number for help desk support authentication - Okta doesn't provide 4 pin functionality similar to PhoneFactor.
+• Select authentication method Provide users with an option to authenticate - SMS Authentication, Google Authenticator or Voice Call Authentication.
+• Select and provide an answer to one security question from the following list:
+
+1. What is your pet’s name?
+2. In what town or city was your first full time job?
+3. In what city were you born?
+4. What high school did you attend?
+5. What is the name of your first school?
+6. What is your favorite movie?
+7. What is your mother's maiden name?
+8. What street did you grow up on?
+9. What was the make of your first car?
+10. When is your anniversary?
+11. What is your favorite color?
+12. What is the name of your first-grade teacher?
+13. What was your high school mascot?
+14. Which is your favorite web browser?
+
+RM-3661. 4: CDAT displays the following message when the user submits the requested information:
+
+Thank you for providing the requested information. You will receive an email in 24 hours to complete the account set up process.</description>
+   <name>RM_3661_Register New MRRC user Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>793102d3-76fe-49c8-8d47-337c56b55f46</testCaseGuid>
+</TestCaseEntity>

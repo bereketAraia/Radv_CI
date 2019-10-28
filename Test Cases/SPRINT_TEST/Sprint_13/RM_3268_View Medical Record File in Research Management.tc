@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Research Management user I want to view the Medical Record File so that I can see the current state of the submission. 
+
+Acceptance Criteria: 
+
+RM-3268.1: CDAT displays the the current state of the submission including the medical record, attestation and coversheet.</description>
+   <name>RM_3268_View Medical Record File in Research Management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c598f1a7-cea8-4411-91cd-1957a4d6c4f8</testCaseGuid>
+</TestCaseEntity>

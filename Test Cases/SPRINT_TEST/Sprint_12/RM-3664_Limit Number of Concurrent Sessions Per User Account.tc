@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As CDAT I want to limit the number of log in sessions per account so that the number of concurrent application/process sessions is limited to what is required for the performance of job duties.Acceptance Criteria:
+
+RM-3664.1: CDAT limits the number of concurrent sessions for each system account to one (1) session.
+
+HOW DOES SYSTEM MONITOR THIS?</description>
+   <name>RM-3664_Limit Number of Concurrent Sessions Per User Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa412f8b-c961-40b2-95dd-d9ebf1e532ab</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RM-98.2: CDAT displays the following information on the Coversheet Summary page: 
+• Validity Issues 
+• Uploaded Medical Record, if applicable 
+• Upload Type (Medical Record, Medical Record and CMS-Generated Attestation or No Medical Record) 
+• Visit Type and Date(s) 
+• Name and DOB, original and corrected 
+• CMS-HCC’s Supported</description>
+   <name>RM_98.2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a34cd21-239a-4051-a36c-0bb38e7ca68b</testCaseGuid>
+</TestCaseEntity>

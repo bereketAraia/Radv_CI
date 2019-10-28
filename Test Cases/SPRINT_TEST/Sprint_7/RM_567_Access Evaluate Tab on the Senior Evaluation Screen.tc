@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Intake Senior Evaluator I want to access the Evaluate tab so I can perform validation checks on the record. 
+
+Acceptance Criteria: 
+
+RM-567.1: CDAT displays the Coversheet ID on the Evaluate Tab. 
+
+RM-567.2: CDAT provides the following options on the Evaluate tab: 
+
+•View Submission - allows the user to view the submitted coversheet, attestation, if applicable and medical record) 
+•Back to Central Coder Queue - returns user to the Open tab on the CCQ when selected - NOT APPLICABLE ANYMORE 
+•Exit - returns user to the Open tab on the CCQ 
+•Escalate - sends the task to the ER Sr. Coder 
+•Save - saves the user's work 
+•Complete - submits the task to the next step</description>
+   <name>RM_567_Access Evaluate Tab on the Senior Evaluation Screen</name>
+   <tag>RM 567</tag>
+   <comment></comment>
+   <testCaseGuid>1e51a8ca-4bb1-400e-a8de-8310e48338bd</testCaseGuid>
+</TestCaseEntity>

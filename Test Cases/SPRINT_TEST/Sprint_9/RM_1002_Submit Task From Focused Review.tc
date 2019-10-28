@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Focused Review Coder I want to submit a task so it can be processed at the next step. 
+
+Acceptance Criteria 
+
+RM-1002.1: CDAT provides a Complete option on the Focused Review screen. 
+
+RM-1002.2: CDAT displays the following message when the user selects the Complete option: 
+&quot;Are you sure you want to submit? This task cannot be recalled once it has been submitted.&quot; 
+
+RM-1002.3: CDAT provides “Continue Working” and “Complete” options for the user to confirm submission. 
+
+RM-1002.4: If &quot;Complete&quot; is selected the task is submitted to Discrepant Confirmation. 
+
+RM-1002.5: If &quot;Continue Working&quot; is selected the user remains on the Focused Review screen. 
+
+RM-1002.6: CDAT displays the following message when a user attempts to submit a record without any ICD-&quot;X&quot; codes associated to it or without selecting No ICD-&quot;X&quot; codes found: : 
+
+You have indicated that there are no ICD-&quot;X&quot; codes for this record. If this is true, select &quot;No ICD-&quot;X&quot; codes found in the submission&quot; otherwise enter ICD-&quot;X&quot; codes. 
+
+RM-1002.7: CDAT provides an &quot;Ok&quot; option to close the message for the user to Focused Review screen to either select &quot;No ICD-9 codes found in the submission&quot; or enter ICD-9 codes. DELETED. THERE IS NO POP UP. </description>
+   <name>RM_1002_Submit Task From Focused Review</name>
+   <tag>RM 1002</tag>
+   <comment></comment>
+   <testCaseGuid>1a50fa39-2be8-469d-ada2-b22dbc1c7064</testCaseGuid>
+</TestCaseEntity>

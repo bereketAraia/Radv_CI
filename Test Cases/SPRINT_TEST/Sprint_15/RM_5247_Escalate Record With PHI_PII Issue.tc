@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a MRRC user I want to escalate a record with a PHI/PII issue so that a QA Panel Editor can approve deletion of the page with the information. 
+
+Acceptance Criteria: 
+
+RM-5247.1: CDAT provides an option for a MRRC coder to indicate if a possible PHI/PII issue exists with a page(s)in the record. 
+
+RM-5247.2: The submission is sent to the QA Panel Editor when a MRRC coder indicates that possible PHI/PII issue exists with a page(s)in the record. 
+
+RM-5247.3: The submission is returned to the user who originally identified the potential PHI/PII issue if the QA Panel Editor does not agree with the user's finding. 
+
+Note: The record could be returned to ER Sr. Coder or any of the CCQ steps depending on where the PHI/PII is flagged. For example: If the user marks the flag at Senior Evaluation it will go directly to QA Panel then back to the Senior Evaluation user. If an ER Sr. Coder checks the PHI/PII flag it goes to QA Panel and will come back down to the ER. Sr. Coder. 
+
+RM-5247.4: The record is sent back to the Submission Review user who last worked the submission if the QA Panel Editor approves the deletion.</description>
+   <name>RM_5247_Escalate Record With PHI_PII Issue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a38e34b6-2201-485c-a1f9-dfab27692092</testCaseGuid>
+</TestCaseEntity>

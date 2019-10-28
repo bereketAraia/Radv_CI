@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a CMS user I want to access the MRRD Management screen so I can view disputes in the queue. 
+
+Acceptance Criteria: 
+
+RM-3352.1: CDAT defaults to the Research Management screen upon login. The user must select MRRD Management on the Queues option to be directed to the Open Tab on the MRRD Management screen. The Open tab displays tasks that have been completed at the Technical Writer review step. The total number of tasks in the queue is displayed on the tab. 
+
+RM-3352.2: CDAT provides the following options on the Queues menu for CMS users: 
+• Research Management, 
+• MRRD Management 
+• PEC Management</description>
+   <name>RM_3552_Access MRRD Management Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>00784858-41b5-4422-9d29-9f336613aec2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a MRRC Senior Coder I want to access the Reconsideration Central Coder Queue screen so I can view tasks in my queue. 
+
+Acceptance Criteria: 
+
+RM-2569.1: CDAT defaults to the Open Tab on the Reconsideration Central Coder Queue screen upon login (if the user has the MRRC Senior Coder role only) or when a user with multiple roles selects the Reconsideration Queue from the list of available authorized tasks. 
+
+RM-2569.2: CDAT provides an option for the user to select the sample year that they are authorized to access. The user can select a sample from all available authorized sample years. CDAT defaults to the most current sample year. 
+
+RM-2569.3: CDAT displays the following the following information on the Reconsideration Central Coder Queue: 
+•	Dispute ID 
+•	Coversheet ID 
+•	Submission Date (date submitted by the MA contract) 
+•	Step 
+•	More which displays the following information when selected: 
+o	Enrollee ID 
+o	Date Requested 
+o	QA Reset</description>
+   <name>RM_2569_Access Reconsideration Central Coder Queue Screen - MRRC Senior Coder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ac91e07-1476-4627-b911-4a5dfed232f2</testCaseGuid>
+</TestCaseEntity>

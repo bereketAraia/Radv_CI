@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to select a CMS-HCC(s) on the coversheet so that it can support the submission. 
+
+Acceptance Criteria: 
+
+RM-60.1: CDAT requires the user to select at least one 2013/2014 CMS-HCC to support the submission. 
+
+RM-60.2: CDAT displays the ICD-9 codes that the MA organization user submitted for each CMS-HCC. 
+
+RM-60.3: CDAT indicates whether the 2013/2014 CMS-HCC is part of a hierarchy. 
+
+RM-60.4: CDAT allows the user to deselect a previously selected CMS-HCC. 
+  
+RM-60.5: CDAT enables the REVIEW option once the user has completed all required sections of the coversheet. 
+
+RM-60.6: CDAT enables a BACK option once the user selects the 2013/2014 CMS-HCC(s) on the coversheet (Guided Form only). CDAT retains data entries and selections when a user selects BACK to return to the previous screen. 
+
+RM-60.7: CDAT provides an option for the user to select CANCEL. 
+
+RM-60.8: CDAT displays the following message when a user selects CANCEL: 
+&quot;If you proceed with cancelling, this Coversheet will not be saved.&quot; The user is required to select &quot;Proceed with Cancel&quot; or &quot;Resume Coversheet&quot;. 
+
+RM-60.9: CDAT sends the user back to the Enrollee Submission Management screen if they select &quot;Proceed with Cancel&quot;. 
+
+RM-60.10: CDAT keeps the user on the Coversheet screen if the user selects &quot;Resume Coversheet&quot;.</description>
+   <name>RM_60_Select CMS-HCC(s) on the Coversheet</name>
+   <tag>RM 60</tag>
+   <comment></comment>
+   <testCaseGuid>d7b94472-1679-444e-8041-392d7d2044fe</testCaseGuid>
+</TestCaseEntity>

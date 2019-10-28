@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Technical Writer I want to receive an alert when there are no records available so that I can request a dispute from a different step.
+
+Acceptance Criteria:
+
+RM-2800.1: CDAT displays the following message when there are no records available to work on in the queue: 
+
+- There are no records available for request. Please try again later.</description>
+   <name>RM_2800_Receive Message For Unavailable Technical Writer Tasks</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3383c809-1de8-4fb1-8806-540c44c05f97</testCaseGuid>
+</TestCaseEntity>

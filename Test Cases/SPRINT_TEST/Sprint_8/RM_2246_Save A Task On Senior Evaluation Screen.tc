@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Intake Senior Evaluator I want to save an open task so that I can keep my changes. 
+
+Acceptance Criteria: 
+
+RM-2246.1: CDAT saves the changes made and displays the following message when the user selects the Save option: 
+
+&quot;Your changes have been saved.&quot; 
+
+RM-2246.2: CDAT reloads the same data when a user who previously saved it returns to work on the task later. 
+
+RM-2246.3: CDAT reloads the same data when a user toggles between tabs within the same record.</description>
+   <name>RM_2246_Save A Task On Senior Evaluation Screen</name>
+   <tag>RM 2246</tag>
+   <comment></comment>
+   <testCaseGuid>9935a7bc-c821-4e77-bce9-d4045ac36186</testCaseGuid>
+</TestCaseEntity>

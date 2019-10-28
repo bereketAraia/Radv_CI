@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RM-85.3: CDAT disables the Download CMS Receipt file option.</description>
+   <name>RM_85.3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d328d5a6-c550-4950-811f-9d80e2bcd75f</testCaseGuid>
+</TestCaseEntity>

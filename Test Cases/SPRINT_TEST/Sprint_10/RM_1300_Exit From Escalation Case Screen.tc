@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an ER Sr. Coder I want to exit the Escalation Case screen so that I can leave the task without making changes. 
+
+Acceptance Criteria: 
+
+RM-1300.1: CDAT provides an Exit option for the user to leave the Escalation Case screen. The user is redirected to the Escalation Senior Coder Queue from the Details tab without any message displayed. 
+
+
+RM-1300.2: CDAT displays the following message when the user selects the Exit option: 
+
+&quot;Are you sure you want to Exit? All information will be lost if you do not select Save before exiting the screen.&quot; 
+
+RM-1300.3: CDAT provides the following options when the user selects the Exit option from the Escalation tab: 
+
+•Save - saves the information entered and returns the user to the Open tab on the Escalation Senior Coder Queue 
+•Don't Save - returns the user to the Open tab on the Escalation Senior Coder Queue without saving the information. 
+•Continue Working - keeps the task open for the user to continue working</description>
+   <name>RM_1300_Exit From Escalation Case Screen</name>
+   <tag>RM 1300</tag>
+   <comment></comment>
+   <testCaseGuid>2fa30120-3220-4189-b6a3-cb4504a123ca</testCaseGuid>
+</TestCaseEntity>

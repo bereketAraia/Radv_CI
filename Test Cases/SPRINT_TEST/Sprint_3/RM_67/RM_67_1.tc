@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to receive feedback when a file I submit does not meet File Format Issue validation restrictions so that I can submit a valid medical record. 
+
+Acceptance Criteria: 
+
+RM-67.1: CDAT displays the File Format Issue reason(s), if applicable, after the user selects the Review option on the Coversheet. 
+
+RM-67.2: CDAT displays an error message when a medical record submission does not comply with the following validation restrictions: 
+o	The submitted medical record is either password protected or encrypted. 
+o	The submitted medical record is an Invalid PDF File Format. 
+o	The submitted medical record does not allow page rotations. 
+o	The submitted medical record does not allow pages to be deleted. 
+o	The submitted medical record does not allow merging with the Coversheet PDF. 
+o	The submitted medical record contains binders, bookmarks, or other embedded containers. 
+o	An unidentifiable issue was encountered with the medical record. 
+o The submitted medical record failed a virus scan. 
+
+RM-67.3: CDAT moves a medical record with a File Format Issue as an invalid submission to CDAT End. 
+
+RM-67.4: CDAT moves a submitted MR without a File Format Issue from the Plan Portal to Submission Review and populates the File Format Issue column with No on the List of Enrollees and Enrollee Submission Management screens. 
+
+RM-67.5: CDAT displays the following values in the File Format Issue column on the Enrollee Submission Management screen: 
+-Yes - if a File Format Issue exists 
+-No - if no Format Issue exists 
+-N/A - if no medical record was submitted 
+
+RM-67.6: CDAT displays the following values in the File Format Issue column on the List of Enrollees screen: 
+-Yes - if a File Format Issue exists 
+-No - if there are no file format issues for any of the submissions for the enrollee 
+-[blank] - if there is no submission for the enrollee 
+
+Note: CDAT doesn't keep a file if it is found to have a File Format Issue.</description>
+   <name>RM_67_1</name>
+   <tag>RM 67</tag>
+   <comment></comment>
+   <testCaseGuid>cef30f90-30c9-4964-b5e3-d2c0b7e75599</testCaseGuid>
+</TestCaseEntity>

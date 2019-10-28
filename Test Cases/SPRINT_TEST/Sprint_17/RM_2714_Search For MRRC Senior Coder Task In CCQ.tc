@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a MRRC Senior Coder I want to search for a dispute so that I can locate it. 
+
+Acceptance Criteria: 
+
+RM-2714.1: CDAT provides a Search option on any tab in the CCQ with the following criteria (supports partial search functionality): 
+• Coversheet ID 
+• Dispute ID 
+
+RM-2714.2: CDAT displays search results based on the search criteria selected. 
+
+RM-2714.3: CDAT displays the following message when a search returns no results: 
+
+&quot;No results found&quot; 
+
+RM-2714.4: CDAT provides an option for the user to clear search results and return the user to the default list of tasks.</description>
+   <name>RM_2714_Search For MRRC Senior Coder Task In CCQ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38822a7b-94d9-463f-97d8-da0e8ab6bce5</testCaseGuid>
+</TestCaseEntity>

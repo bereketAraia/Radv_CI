@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RM-71.2: CDAT automatically assigns rank = 0 for a submission with No medical record attached. The submission displays a default value of 0 on the Enrollee Submission Management Screen. No medical record submissions will not count against the total number of submissions allowed for that enrollee.</description>
+   <name>RM_71.2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14a80851-55fe-41d1-abf7-486e1a27a0aa</testCaseGuid>
+</TestCaseEntity>

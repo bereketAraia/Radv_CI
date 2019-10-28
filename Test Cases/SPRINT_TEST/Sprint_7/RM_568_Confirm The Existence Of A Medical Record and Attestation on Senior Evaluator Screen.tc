@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Intake Sr Evaluator I want to confirm the existence of a medical record and attestation so that the task can be processed correctly. 
+
+Acceptance Criteria: 
+
+RM-568.1: CDAT requires the user to check all options that are applicable to the submission from the following selections: 
+•A CMS-Generated Attestation 
+•A non-CMS-Generated Attestation 
+•No Attestation 
+•A medical record 
+•No medical record (INV 17) 
+
+RM-568.2: CDAT only allows the user to select one attestation option at a time. For example, if the user selects &quot;A non-CMS-Generated Attestation&quot; they cannot select &quot;A CMS-Generated Attestation&quot; and/or &quot;No Attestation&quot; at the same time. 
+
+RM-568.3: CDAT allows the user to select &quot;A medical record&quot; or &quot;No medical record (INV 17)&quot; but not both at the same time. 
+
+
+RM-568.4: CDAT retains the attestation selection even if a user selects &quot;No medical record (INV 17)&quot; . 
+
+RM-568.5: CDAT removes the ability for the user to complete the following fields when No medical record (INV 17) is selected: 
+• Edit Attestation date of service 
+• Select CMS-generated Attestation invalidity reasons 
+• Edit Medical Record dates of service 
+• Select how the Medical Record was created (Electronic Medical Record (EMR)) 
+• Select issues with Medical Record 
+• Answer invalidity questions 
+
+RM-568.6: CDAT requires the user to enter a comment when No medical record (INV 17) is selected. 
+
+RM-568.7: CDAT allows a maximum limit of 2,000 characters per comment made.</description>
+   <name>RM_568_Confirm The Existence Of A Medical Record and Attestation on Senior Evaluator Screen</name>
+   <tag>RM 568</tag>
+   <comment></comment>
+   <testCaseGuid>32383c59-2d36-4471-9cce-c9023b4856b3</testCaseGuid>
+</TestCaseEntity>

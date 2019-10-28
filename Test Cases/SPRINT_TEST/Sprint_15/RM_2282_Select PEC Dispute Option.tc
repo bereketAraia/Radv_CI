@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA contract user I want to select a dispute option so that I can indicate whether I am disputing a Payment Error Calculation or not. 
+
+Acceptance Criteria: 
+
+RM-2282.1: CDAT provides the following options on the PEC Coversheet screen: 
+
+• PEC dispute is being submitted for this MA Contract 
+• No PEC dispute is being submitted for this MA Contract 
+
+RM-2282.2: CDAT displays the following sections on the coversheet when the user selects the &quot;PEC dispute is being submitted for this MA Contract&quot; option: 
+
+• Attach a file that supports the PEC 
+• Enter your justification in support of the PEC (CDAT displays the following disclaimer text in the justification section: 
+All established RADV audit procedures and requirements and RADV appeals procedures and requirements must be followed) 
+
+RM-2282.3: CDAT prohibits the user from entering further information if &quot;No PEC dispute is being submitted for this MA Contract&quot; is selected. No other coversheet selections are displayed and the Submit option is enabled.</description>
+   <name>RM_2282_Select PEC Dispute Option</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c92e122b-9429-4628-99a9-63ed503ca77e</testCaseGuid>
+</TestCaseEntity>

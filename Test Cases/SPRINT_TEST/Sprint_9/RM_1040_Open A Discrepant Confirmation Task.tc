@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Discrepant Confirmation Coder I want to open a task so that I can process it. 
+
+Acceptance Criteria: 
+
+RM-1040.1: CDAT allows the user to open a task by selecting the Coversheet ID on the Open tab of the CCQ. 
+
+RM-1040.2: CDAT opens the Discrepant Confirmation screen with the Details tab displayed by default when the user selects a task's Coversheet ID.</description>
+   <name>RM_1040_Open A Discrepant Confirmation Task</name>
+   <tag>RM 1040</tag>
+   <comment></comment>
+   <testCaseGuid>c67259c4-f365-4492-8ed9-f87424c4b263</testCaseGuid>
+</TestCaseEntity>

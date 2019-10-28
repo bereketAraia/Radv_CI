@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA user I want to know if there is a file format issue with the files I submitted for an enrollee on the List of Enrollees screen so I can correct and resubmit the file(s). 
+
+Acceptance Criteria: 
+
+RM-81.1: CDAT sets the File Format Issue field to the following values on the List of Enrollees screen after a Medical Record Coversheet(s) has been submitted: 
+&lt;Blank> - No medical record 
+Yes – There is an issue with the PDF validation of one of the submitted medical records for this enrollee. Additional action is necessary to resolve the issue 
+No - There is no issue with the PDF validation of any of the submitted medical records submitted for this enrollee</description>
+   <name>RM_81_File Format Issue Indicator on List of Enrollees Screen</name>
+   <tag>RM 81</tag>
+   <comment></comment>
+   <testCaseGuid>4066ffe3-cff9-46c2-9da8-a1d5495fdfaa</testCaseGuid>
+</TestCaseEntity>

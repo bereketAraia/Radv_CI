@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>
+RM-1278.6: CDAT provides a Save Changes option which saves the rank edits, displays the following message and redirects the user back to the Enrollee Submission Management after selecting Ok: 
+
+&quot;Your changes have been saved.&quot;</description>
+   <name>RM_1278.6</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1003ccad-09f6-434a-9ec1-1a066cb6eac1</testCaseGuid>
+</TestCaseEntity>

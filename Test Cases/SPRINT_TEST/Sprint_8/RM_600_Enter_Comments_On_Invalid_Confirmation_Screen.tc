@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an I-IVC Sr. Evaluator I want to enter comments regarding my task so that I can provide background information to other users who will review the same task. 
+
+Acceptance Criteria: 
+
+RM-600.1: CDAT provides an option for the user to enter comments regarding the submission. 
+
+RM-600.2:CDAT allows a maximum size of 2,000 characters for the comment area.</description>
+   <name>RM_600_Enter_Comments_On_Invalid_Confirmation_Screen</name>
+   <tag>RM 600</tag>
+   <comment></comment>
+   <testCaseGuid>4c5f73e9-b3dd-4462-aef1-9c51cbc48c29</testCaseGuid>
+</TestCaseEntity>

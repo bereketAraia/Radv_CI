@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to confirm that I am authorized to access content from the CDAT site so that I can proceed with the submission process. 
+
+Acceptance Criteria: 
+
+RM-37.1: CDAT provides the user with an option to confirm authorization to view information and agree to the the following terms and conditions: 
+“I am authorized to add and retrieve content from this site and agree to the following terms and conditions:&quot; 
+  
+&quot;Your MA organization is utilizing this system to validate sampled risk adjustment data that your MA organization submitted under this designated MA contract in accordance with 42 C.F.R §422.310. Your MA organization must follow all RADV audit procedures. Failure to follow RADV audit procedures will render your MA organization’s subsequent request for appeal for this designated MA contract invalid. 
+
+RM-37.2: CDAT requires the user to accept the terms and conditions before proceeding further in the application. The user cannot access any sample data until terms and conditions are agreed to. 
+
+RM-37.3: CDAT displays all the HMOIDs which the user is authorized to view upon acceptance of the terms and conditions.</description>
+   <name>RM_37_Confirm Authorization To View Information</name>
+   <tag>RM 37</tag>
+   <comment></comment>
+   <testCaseGuid>3e72110a-9a76-4e0b-8fbf-785bf676531f</testCaseGuid>
+</TestCaseEntity>

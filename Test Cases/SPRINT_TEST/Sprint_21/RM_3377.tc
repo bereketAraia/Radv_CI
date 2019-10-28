@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a CMS user I want to add notes to a task so that other internal reviewers can view it.
+
+Acceptance Criteria:
+
+RM-3377.1: CDAT provides a textbox  for entering notes when the user selects the &quot;I would like to add notes only accessible to CMS Reviewers&quot; checkbox.
+
+RM-3377.2: The notes textbox displays the following text until a user enters text:
+
+Optional - Type comments here. 50000 character limit.</description>
+   <name>RM_3377</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2a2209c-fd1d-4ab0-9eb4-d70f9afe7f61</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a RADV application I want to display a message to users who attempt to view information they are not authorized so that they do not proceed any further. 
+
+Acceptance Criteria: 
+
+RM-2722.1: CDAT displays the following message when a user attempts to access a screen that the user is not authorized: 
+
+“You do not have permission to access this information”</description>
+   <name>RM_2722_Display Message For Unauthorized Access</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7f116a5-dd34-465f-a786-fd3ca9ef5c91</testCaseGuid>
+</TestCaseEntity>

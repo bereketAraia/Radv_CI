@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to select the Health Maintenance Organization Identification Number- Medicare Advantage (HMOID-MA) Contract so that I can view the enrollee data for the selected HMOID. 
+
+Acceptance Criteria: 
+
+RM-36.1: CDAT displays all the HMOIDs available for selection which the user is authorized to access upon acceptance of the terms and conditions. 
+
+RM-36.2: CDAT displays the following information on the HMOID selection screen: 
+•	Progress (Shows stats on Completed, In Progress and Not Started enrollees) 
+•	Contract Name 
+•	Enrollee List (downloadable enrollee list) 
+•	More (displays additional files for download) 
+
+RM-36.3: CDAT requires the user to select the MA Contract Name to advance to the List of Enrollees screen. 
+
+RM-36.4: CDAT allows the user to sort by Contract Name. 
+
+RM-36.5: CDAT disables the More option if there is no additional information to be displayed.</description>
+   <name>RM_36_Select HMOID-MA Contract</name>
+   <tag>RM 36</tag>
+   <comment></comment>
+   <testCaseGuid>438edced-d660-4416-ad2b-64cd84922128</testCaseGuid>
+</TestCaseEntity>

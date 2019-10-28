@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an I-IVC Sr. Evaluator I want to access the Details tab on the Invalid Confirmation Screen screen so that I can view a summary of the task I want to process. 
+
+Acceptance Criteria: 
+
+RM-608.1: CDAT allows the user to open an Invalid Confirmation task by selecting the Coversheet ID in the Open Tab of the Central Coder Queue. 
+
+RM-608.2: CDAT directs the user to the Invalid Confirmation Screen screen which displays the following tabs: 
+•Details (displayed by default) - Details tab is read only. 
+•Validate 
+
+RM-608.3: The Details tab displays the following header information: 
+•Coversheet ID 
+•Enrollee ID 
+•Enrollee Name 
+•Corrected Name 
+•DOB 
+•Corrected DOB 
+•Provider Type 
+•Date of Service Start 
+•Date of Service End 
+
+RM-608.4: CDAT provides a Back to Central Coder Screen option for the user to return to the Open tab on the CCQ when selected. 
+
+RM-608.5: CDAT provides an option to filter by the following fields: 
+•	Submission Review 
+•	Invalid Confirmation 
+•	Escalation 
+•	Escalation Resolution 
+
+RM-608.6: CDAT displays a timeline which shows previous actions performed on the record. The latest action performed is displayed first. 
+
+RM-608.7: CDAT allows the user to sort the timeline from newest to oldest and vice versa. 
+
+RM-608.8: CDAT displays a date and timestamp (MM/DD/YYYY, X:XX AM/PM) for each action in the timeline. 
+
+RM-608.9: CDAT displays the following comments when applicable: 
+• All comments and escalation related comments from Submission Review and Invalid Confirmation 
+• QA Panel Reset comments 
+• PM Reset comment if the record was PM Reset at Invalid Confirmation 
+
+RM-608.10: CDAT displays the user who entered each comment. 
+
+RM-608.11: CDAT provides the option to minimize the comment(s) for each section.</description>
+   <name>RM_608_Access_Details_Tab_on_Invalid_Confirmation_Screen</name>
+   <tag>RM 608</tag>
+   <comment></comment>
+   <testCaseGuid>72563d0f-f7b6-40e0-928d-1198874fb5e2</testCaseGuid>
+</TestCaseEntity>

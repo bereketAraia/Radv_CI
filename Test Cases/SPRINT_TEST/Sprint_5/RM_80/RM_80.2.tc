@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RM-80.2: CDAT performs the following actions when the user marks an enrollee as complete
+o	Locks Enrollee submissions and rankings
+o	Enables Download CMS Receipt option
+o	Disables the Change Rank, Remove Coversheet and Add Coversheet Options
+o	Marks the enrollee as complete in the Progress column on the List of Enrollees screen
+o	The Mark as Complete option can be deselected if the user wishes to add more coversheets for the enrollee before the submission deadline.</description>
+   <name>RM_80.2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62d5bc72-ca38-4115-a329-114b92d75533</testCaseGuid>
+</TestCaseEntity>

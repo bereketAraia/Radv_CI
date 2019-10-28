@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Research Management user I want to access the Encoder Tool so that I can use it for research purposes. 
+
+Acceptance Criteria: 
+
+RM-3274.1: CDAT allows access to the Encoder Tool for users with MR and Coding and MR, Coding and Export access. The Encoder Tool is used for research and will not return any ICD codes and CMS-HCCs or update the record. 
+
+RM-3274.2: CDAT makes the Encoder Tool accessible in Research Management from at following steps: 
+
+• Focused Review 
+• Discrepant Confirmation 
+• Escalation screens for the above steps</description>
+   <name>Rm_3274_Access Encoder Tool in Research Management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bd0598d-7134-443e-914b-284f46e09891</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA contract user, I want to confirm the MFA Phone Number Field on Set Up Multi-Factor Authentication page when completing my registration so that I can verify that my initial entry is accurate.
+Acceptance Criteria:
+RM-8207.1- Given that the user has successfully completed the Verify Account and Basic account information and selected Next to proceed to the next screen
+RM-8207.2 - CDAT displays the Set Up Multi-Factor Authentication page on the Account Registration screen after user selects Next.
+RM-8207.3- If the user selects the Voice Authentication, CDAT requires the user to enter the Phone Number to receive passcodes via phone call. (Contact Phone Extension is an optional field)
+RM-8207.4- CDAT requires the user to Confirm Phone Number on the Multi-Factor Authentication page.
+RM-8207.5- If the Phone Number does not match, CDAT displays an error message “Phone number does not match”
+RM-8207.6- If the user selects SMS Authentication, CDAT requires the user to enter the Phone Number to receive passcodes via text message.
+RM-8207.7 - CDAT requires the user to Confirm the Phone Number on the Multi-Factor Authentication page.
+RM-8207.8 - If the Phone Number does not match, CDAT displays an error message “Phone number does not match”
+RM-8207.9 - If the User attempts to proceed without completing the Phone Number field, CDAT should display an error message “Phone Number is required”
+RM-8207.10 - If the User attempts to proceed without completing the Confirm Phone Number field, CDAT should display an error message “Confirm Phone Number is required”
+RM-8207.11 - If the user enters the wrong format, CDAT displays an error message “Phone Number must be supplied in (###) 000-0000 format”</description>
+   <name>RM_8207.1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eab89d00-241b-4bf1-a49f-0d71a266d27a</testCaseGuid>
+</TestCaseEntity>

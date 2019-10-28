@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a MRRC Senior Coder I want to request a task so that I can review it. 
+
+Acceptance Criteria: 
+
+RM-2717.1: CDAT provides an option to Request Task from any tab on the CCQ. 
+
+RM-2717.2: The user is required to select a step before the Request Task option is enabled. 
+
+RM-2717.3: CDAT adds a task to the user's Open tab when the user selects the Request Task option. 
+
+RM-2717.4: CDAT increases the number of tasks displayed in the Open tab when the user selects the Request Task option. For example if the user has three tasks in their queue and requests another task, the number changes from three to four. 
+
+RM-2717.5: Any coder who requested a task during any of the following steps except for escalation and QA Panel cannot request it at the MRRC Senior Coder step: 
+
+•	Senior Evaluation 
+•	Invalid Confirmation 
+•	Focused Review 
+•	Discrepant Confirmation 
+•	Any user that CMS cross references from being assigned to the task</description>
+   <name>RM_2717_Request MRRC Senior Coder Task on CCQ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7cfcbb3-9b26-46ff-adb8-318c0f3a1805</testCaseGuid>
+</TestCaseEntity>

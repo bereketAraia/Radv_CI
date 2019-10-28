@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a PM user I want to access the PM Reset screen so I can view the tasks in my queues. 
+
+Acceptance Criteria: 
+
+RM-1759.1: CDAT defaults to the PM Reset screen upon log in (if the user has the PM role only) or when a user with multiple roles selects the PM Reset Queue from the list of available authorized steps. 
+
+RM-1759.2: CDAT provides an option for the user to select the sample year that they are authorized to access. The user can select a sample from all available authorized sample years. CDAT defaults to the most current sample year. 
+
+RM-1759.3: CDAT provides an option for a user to search for a specific task using the following search criteria: 
+• Enrollee ID 
+• Coversheet ID 
+• Username 
+• HMOID 
+• Date 
+
+RM-1759.4: A user must conduct a search before PM reset tasks are displayed. CDAT displays the following message informing the user that a search must be performed: 
+
+Please conduct a search to see results. 
+
+RM-1759.5: CDAT provides a filter option with the following criteria (based on MRRC organization exclusion criteria): 
+• Submission Review 
+• Senior Evaluation 
+• Invalid Confirmation 
+• Focused Review 
+• Discrepant Confirmation 
+
+RM-1759.6: CDAT provides an option to reset search and filter selections. 
+
+RM-1759.7: CDAT displays the following fields on the PM Reset screen: 
+• Username 
+• Coversheet ID 
+• Enrollee ID 
+• HMOID 
+• Step 
+• Date Requested 
+• Reset 
+
+RM-1759.8: CDAT provides the option to sort by the following column headings: 
+• Username 
+• Coversheet ID 
+• Enrollee ID 
+• HMOID 
+• Step (sorted by sequence of steps; i.e. Submission Review, Senior Evaluation, Invalid Confirmation, Focused Review and Discrepant Confirmation and vice versa) 
+• Date Requested 
+
+RM-1759.9: CDAT provides an option to reset a task from the PM's MRRC organization.</description>
+   <name>RM_1759_Access PM Reset Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e8c9446-404c-48ca-aa87-11eb83db4093</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a QA Panel user I want to access the QA Panel screen so that I can view escalated tasks. 
+
+Acceptance Criteria: 
+
+RM-1549.1: CDAT displays the QA Panel screen upon login (if the user has the QA Panel role only) or when a user with multiple roles selects the QA Panel from the list of available authorized steps. 
+RM-1549.2: CDAT provides an option for the user to select the sample year that they are authorized to access. The user can select a sample from all available authorized sample years. CDAT defaults to the most current sample year. 
+
+RM-1549.3: CDAT displays the following filters on the QA Panel screen: 
+•	Status with the following values: 
+o	Open 
+o	QA Reset (only QA Panel Editor can reset a task. QA Panel Member has read only access) 
+o	Complete 
+•	Step- with the following values: 
+o	Review Submission 
+o	Senior Evaluation 
+o	Invalid Confirmation 
+o	Focused Review 
+o	Discrepant Confirmation 
+
+CDAT displays the following fields on the QA Panel Screen: 
+• Escalation Case ID 
+• Coversheet ID 
+• Status 
+• Date Escalated (MM/DD/YYYY and time XX:XX AM EST/EDT) 
+• Step 
+• More which displays the following information when selected: 
+- Submitted By (LastName FirstName) 
+- Comment</description>
+   <name>RM_1549_Access QA Panel Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45d0eaa3-c8ad-4246-8e5e-c9f19bbc46ce</testCaseGuid>
+</TestCaseEntity>

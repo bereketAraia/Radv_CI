@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user, I want to remove a previously submitted coversheet so that I can submit another coversheet. 
+
+Acceptance Criteria: 
+
+RM-70.1: CDAT enables the &quot;Remove Coversheet&quot; option on the Enrollee Submission Management screen and Coversheet Summary screen for an MA organization user to remove a previously submitted coversheet after reaching the allotted limit of five per CMS-HCC. 
+
+RM-70.2: CDAT displays the following message when a user selects the &quot;Remove Coversheet&quot; option:
+
+- &quot;Are you sure you want to remove this coversheet? You will no longer have access to the coversheet or any associated attachments.&quot; 
+
+RM-70.3: The user can select &quot;Proceed with remove&quot; or &quot;Keep Coversheet&quot;. 
+
+RM-70.4: CDAT removes the coversheet from the Enrollee Submission Management screen when the user selects &quot;Proceed with remove&quot;. 
+
+RM-70.5: CDAT keeps the coversheet if the user selects &quot;Keep Coversheet&quot;. 
+
+RM-70.6: CDAT moves all lower ranked coversheets up one level (except No Medical Record coversheets ranked 0 which don't change) when a coversheet is removed. 
+
+RM-70.7: CDAT disables the &quot;Remove Coversheet&quot; option on the Enrollee Submission Management screen and Coversheet Summary screen once the number of submitted coversheets drops below the maximum allowed coversheets for the enrollee.</description>
+   <name>RM_70_Remove a Coversheet</name>
+   <tag>RM 70</tag>
+   <comment></comment>
+   <testCaseGuid>cf16fc20-d8f7-4a63-836f-f025834e0d9f</testCaseGuid>
+</TestCaseEntity>

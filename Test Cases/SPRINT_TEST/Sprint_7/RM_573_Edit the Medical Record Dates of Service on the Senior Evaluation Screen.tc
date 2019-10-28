@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an Intake Senior Evaluator I want to change the medical record date of service to match the date on the medical record. 
+
+Acceptance Criteria: 
+
+RM-573.1: CDAT displays the inpatient medical record Admission Date and Discharge Date as entered on the coversheet. For outpatient medical records CDAT displays Date of Service. 
+
+RM-573.2: CDAT allows the user to edit the inpatient medical record Admission Date and/or Discharge Date and the outpatient Date of Service. The Intake Senior Evaluator can change the month, day or year to match the medical record. 
+
+RM-573.3: CDAT requires the user to enter the correct date format, MM/DD/YYYY. 
+
+RM-573.4: CDAT displays the following message when a user enters an incorrect date format: 
+
+-Invalid date entered. Date must be in MM/DD/YYYY format.</description>
+   <name>RM_573_Edit the Medical Record Dates of Service on the Senior Evaluation Screen</name>
+   <tag>RM 573</tag>
+   <comment></comment>
+   <testCaseGuid>75944303-68b3-41ee-9bae-b74f44ad9b14</testCaseGuid>
+</TestCaseEntity>

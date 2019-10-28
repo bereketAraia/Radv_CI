@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA contract user I want to edit the dispute option on a submitted coversheet so that I can submit the correct selection.
+
+Acceptance Criteria:
+
+RM-2217.1: Given that a user has submitted an MRRD coversheet, CDAT enables the Edit option when the user opens the submitted MRRD Coversheet. The Edit option is disabled after the submission deadline has passed.
+
+RM-2217.2: CDAT allows the user to change the dispute option up until the end of the 60 day submission period (or extended submission period if applicable).
+
+RM-2217.3: CDAT removes the medical record selected and justification entered by the MA contract user when they change selection from Dispute is being submitted for [CMS-HCC] to No Dispute is being submitted for [CMS-HCC].
+
+RM-2217.4: CDAT overwrites the previous dispute option with any revision prior to the submission deadline (or extended submission deadline if applicable).</description>
+   <name>RM_2217_Edit Dispute Option on Submitted MRRD Coversheet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d87f85c-8927-494d-bf4e-2e880498c0b9</testCaseGuid>
+</TestCaseEntity>

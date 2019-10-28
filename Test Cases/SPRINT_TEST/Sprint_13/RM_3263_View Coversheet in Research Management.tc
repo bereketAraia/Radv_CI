@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Research Management user I want to view the Coversheet so that I can see how the MA organization completed it for the RADV audit. 
+
+Acceptance Criteria: 
+
+As a Research Management user I want to view the Coversheet so that I can see how the MA organization completed it for the RADV audit. 
+
+Acceptance Criteria: 
+
+RM-3263.1: CDAT displays the Coversheet related to the audit when the user selects View Coversheet option. 
+
+RM-3263.2: The View Coversheet option is not available at the Plan Portal step</description>
+   <name>RM_3263_View Coversheet in Research Management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1220dbd-1c9c-4ee3-b573-0d5722186da3</testCaseGuid>
+</TestCaseEntity>

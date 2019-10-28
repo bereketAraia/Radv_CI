@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Technical Writer I want to access the Reconsideration Central Coder Queue screen so I can view tasks in my queue.
+
+Acceptance Criteria:
+
+RM-2783.1: CDAT defaults to the Open Tab on the Reconsideration Central Coder Queue screen upon login (if the user has the Technical Writer role only) or when a user with multiple roles selects the Central Coder from on the Queues menu.
+
+RM-2783.2: CDAT provides an option for the user to select the sample year that they are authorized to access. The user can select a sample from all available authorized sample years. CDAT defaults to the most current sample year.
+
+RM-2783.3: CDAT displays the following the following information on the Reconsideration Central Coder Queue:
+• Dispute ID
+• Coversheet ID
+• Submission Date (date submitted by the MA contract. MM/DD/YYYYY and time XX:XX AM/PM EST/EDT)
+• Step
+• More which displays the following information when selected:
+o Enrollee ID
+o Date Requested (MM/DD/YYYYY and time XX:XX AM/PM EST/EDT)
+o Reset (displays date and time of reset (MM/DD/YYYYY and time XX:XX AM/PM EST/EDT)). CDAT displays whether submission has been PM or QA reset.
+
+RM-2783.4: CDAT provides the option to sort by the following column headings:
+• Dispute ID
+• Coversheet ID
+• Submission Date
+• Step</description>
+   <name>RM_2783_Access Reconsideration Central Coder Queue Screen - Technical Writer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10037a84-3188-478f-a402-8935f4f9eee3</testCaseGuid>
+</TestCaseEntity>

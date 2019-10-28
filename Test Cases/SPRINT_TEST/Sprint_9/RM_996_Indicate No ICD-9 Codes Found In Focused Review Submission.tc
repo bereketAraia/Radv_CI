@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Focused Review Coder I want to indicate when no ICD-9 Codes are found for a submission so that the record can be processed correctly. 
+
+Acceptance Criteria: 
+
+RM-996.1: CDAT provides an option for the user to select No ICD-9 codes found in the submission. 
+
+RM-996.2: CDAT disables the Encoder Tool when the user selects No ICD-9 codes found in the submission. 
+
+RM-996.3: CDAT displays a comments box when the user selects No ICD-9 codes found in the submission. A maximum of 2,000 characters is allowed in the comments box. 
+
+RM-996.4: CDAT requires the user to enter a comment when &quot;No ICD-9 codes found in the submission&quot; is selected. 
+
+RM-996.5: CDAT displays the following message when the user selects the No ICD-9 codes found in the submission option but does not enter a comment after selecting the Submit option: 
+
+“Comments are required”. 
+
+RM-996.6: CDAT prevents a user from submitting without having ICD-9 codes associated with the record or &quot;No ICD-9 codes found in the submission&quot; selected.</description>
+   <name>RM_996_Indicate No ICD-9 Codes Found In Focused Review Submission</name>
+   <tag>RM 996</tag>
+   <comment></comment>
+   <testCaseGuid>ee88fb45-c423-4e3c-a107-214e5a460bd2</testCaseGuid>
+</TestCaseEntity>

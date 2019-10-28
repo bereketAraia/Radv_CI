@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a CMS user I want to export my search results on the MRRD Management screen so that I can save them in a file.
+
+Acceptance Criteria:
+
+RM-3361.1: CDAT provides an Export option for CMS users on all tabs of the MRRD Management screen.
+
+RM-3361.2: CDAT exports the search results into a .CSV file containing the following fields:
+
+• Dispute ID
+• Coversheet ID
+• Audited CMS-HCC
+• Submission Date
+• Final Disposition
+• Date Returned (date task returned to MRRC Senior Coder or Technical Writer from CMS)
+• Returned To (LastName, FirstName)
+• Date Escalated
+• Enrollee ID
+• Discrepant CMS-HCC
+• Disputed CMS-HCC
+• QA Reset
+• PM Reset
+• MRRC Organization
+• HMOID
+
+Note: The columns displayed are based on the search results for each tab.</description>
+   <name>RM_3361_Export Search Results in MRRD Management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31363c20-0721-4771-9642-a870c6e4fd47</testCaseGuid>
+</TestCaseEntity>

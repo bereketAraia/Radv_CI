@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA contract user I want to submit an edited MRRD Coversheet so that I can include updates made for the reconsideration process.
+
+Acceptance Criteria:
+
+RM-2220.1: CDAT allows the MA contract user to submit an updated MRRD Coversheet upon making updates to any of the following fields:- Change the selection of whether they are submitting a dispute or not- Change justification text- Change medical record selection 
+
+RM-2220.2: CDAT saves the new entries made on the coversheet and returns the user to the List of Disputable CMS-HCCs screen.
+
+RM-2220.3: The latest version of an MRRD coversheet completed by an MA contract user prior to the submission deadline is sent to the MRRC Senior Coders for MRRD Reconsideration.
+
+RM-2220.4: CDAT retains the prior submission information if an MA contract user exits from the MRRD coversheet without electing to save the changes after selecting Edit (No updates made by MA contract user will be saved).</description>
+   <name>RM_2220_Submit Edited MRRD Coversheet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>202b5687-2b47-47ba-a504-eb1a0d903bd3</testCaseGuid>
+</TestCaseEntity>

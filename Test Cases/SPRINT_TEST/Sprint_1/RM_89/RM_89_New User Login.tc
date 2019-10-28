@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a new CDAT user I want to login to CDAT so that I can enter the application. 
+
+Acceptance Criteria: 
+
+RM-89.1: CDAT requires the user to enter a registered username and valid temporary password. 
+
+RM-89.2: CDAT user receives a phone call to their registered phone number to complete the multi factor authentication process. 
+
+RM-89.3: CDAT directs the user to the Change Password screen upon first login. 
+
+RM-89.4: CDAT displays the following message when a user enters an incorrect username: 
+
+&quot;The username entered is not valid. Please try again. 
+
+RM-89.5: CDAT displays the following message when a user enters an invalid password: 
+
+&quot;Login Failed 
+
+Please verify the following items: 
+- You entered your username and password correctly. 
+- You have the correct phone close to you and it has reception. 
+- You entered the correct PIN. 
+
+If the problem persists, please contact your company's help desk for assistance.&quot; 
+
+RM-89.6: CDAT locks the user out of their account after three failed login attempts with the following message: 
+
+&quot;Your account is locked. Please try again after 60 minutes or submit a support ticket to the RADV Help Desk.&quot; 
+
+RM-89.7: CDAT directs the user to the RADV Homepage upon successful change of password.</description>
+   <name>RM_89_New User Login</name>
+   <tag>RM 89</tag>
+   <comment></comment>
+   <testCaseGuid>2d099691-7982-4ed9-a077-be8efbe5074f</testCaseGuid>
+</TestCaseEntity>

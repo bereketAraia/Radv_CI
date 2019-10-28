@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a CMS user I want to return a task to the Technical Writer so that updates can be made.
+
+Acceptance Criteria:
+
+RM-3581.1: CDAT requires the user to select a Technical Writer from the following options:
+
+• MRRC Senior Coder
+• Technical Writer
+
+
+RM-3581.2: CDAT displays a pop up screen to add comments when the user selects the Add Comment option.
+
+RM-3581.3: CDAT displays the following message when a user attempts to return the task to the Technical Writer without entering a reason:</description>
+   <name>RM_3581_Return Task To Technical Writer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b781bf71-2344-4bbc-8650-ae20b79d85f8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a MA contract user, I want to confirm the Security Question Answer on the Account Registration page when completing the Basic Account Information page so that I can verify that my initial answer is accurate. 
+Acceptance Criteria
+RM-7987.1 - Given that the user has entered the following information 
+• First Name 
+• Last Name 
+• Email Address
+RM-7987.2- CDAT requires the user to select Next to proceed to the next screen.
+RM-7987.3 - CDAT displays the Basic Account Information page on the Account registration screen and requires the user to provide the following information:
+•	Contact phone number
+•	Contact phone extension
+•	Organization name
+•	Help desk PIN
+•	Select security question
+•	Answer security question
+RM-7987.4 - CDAT requires the user to complete the Confirm Answer Security Question field.
+RM-7987.5 - If the Answer Security Question and Confirm Answer Security Question does not match then CDAT will display the message: &quot;Confirm Answer Security Question must match Answer Security Question&quot;
+RM-7987.6- CDAT displays the Set Up Multi-Factor Authentication page on the Account Registration screen after user selects Next. 
+RM-7987.7- If the user selects the Voice Authentication, CDAT requires the user to enter the Phone Number to receive passcodes via phone call. (Contact Phone Extension is an optional field)
+RM-7987.8- CDAT requires the user to Confirm Phone Number on the Multi-Factor Authentication page. 
+RM-7987.9- If the Phone Number does not match, CDAT displays an error message “Phone number does not match” 
+RM-7987.10- If the user selects SMS Authentication, CDAT requires the user to enter the Phone Number to receive passcodes via text message. 
+RM-7987.11 - CDAT requires the user to Confirm the Phone Number on the Multi-Factor Authentication page.
+RM-7987.12 - If the Phone Number does not match, CDAT displays an error message “Phone number does not match” 
+RM-7987.13 - If the User attempts to proceed without completing the Phone Number field, CDAT should display an error message “Phone Number is required” 
+RM-7987.14 - If the User attempts to proceed without completing the Confirm Phone Number field, CDAT should display an error message “Confirm Phone Number is required” 
+RM-7987.15 - If the user enters the wrong format, CDAT displays an error message “Phone Number must be supplied in (###) 000-0000 format”</description>
+   <name>RM_7987.1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a190148-4ad1-411a-8812-86e822c4e91b</testCaseGuid>
+</TestCaseEntity>

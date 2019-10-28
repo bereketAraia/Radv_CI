@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an MA organization user I want to view a Coversheet Summary page for a submitted coversheet so I can review submission details. 
+
+Acceptance Criteria: 
+
+RM-98.1: CDAT displays the following header fields on the Coversheet Summary page: 
+• Coversheet ID 
+• Name 
+• DOB 
+• Enrollee ID 
+• HMOID 
+• MA Contract 
+• Submitted By and Date/Time 
+
+RM-98.2: CDAT displays the following information on the Coversheet Summary page: 
+• Validity Issues 
+• Uploaded Medical Record, if applicable 
+• Upload Type (Medical Record, Medical Record and CMS-Generated Attestation or No Medical Record) 
+• Visit Type and Date(s) 
+• Name and DOB, original and corrected 
+• CMS-HCC’s Supported 
+
+RM-98.3: CDAT allows the user to open the submitted Medical Record. 
+
+RM-98.4: CDAT provides the option for the user to download the Coversheet with Medical Record. The download option is disabled if there is a File Format Issue. A No Medical Record submission will download the coversheet only. 
+
+RM-98.5: CDAT provides the option for the user to return to the Enrollee Submission Management screen.</description>
+   <name>RM_98_Accessing Coversheet Summary Page</name>
+   <tag>RM 98</tag>
+   <comment></comment>
+   <testCaseGuid>0497de96-9568-4e50-aa74-bcbfd0fb1115</testCaseGuid>
+</TestCaseEntity>

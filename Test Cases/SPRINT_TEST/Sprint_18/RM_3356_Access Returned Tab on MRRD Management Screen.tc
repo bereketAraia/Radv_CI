@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a CMS user I want to access the Returned Tab on the MRRD Management screen so I can see tasks that have been returned to a MRRC Senior Coder or Technical Writer.
+
+Acceptance Criteria:
+
+RM-3356.1: CDAT displays all tasks returned to MRRC Senior Coders or Technical Writers when the user selects the Returned tab on the MRRD Management screen. The total number of tasks in the queue is displayed on the tab.
+
+RM-3356.2: CDAT displays the following read only fields on the Returned tab:
+• Dispute ID - default sort order when you access the screen initially.
+• Coversheet ID
+• Audited CMS-HCC
+• Final Disposition
+• Date Returned (date task was returned to a MRRC Senior Coder or Technical Writer. MM/DD/YYYYY and time XX:XX AM EST)
+• Returned To (LastName, FirstName of person task was returned to)
+• More which displays the following information when selected:
+o Enrollee ID
+o Discrepant CMS-HCC
+o Disputed CMS-HCC
+o Reset (displays date and time of reset (MM/DD/YYYYY and time XX:XX AM/PM EST/EDS)). CDAT displays whether submission has been PM or QA reset.
+
+RM-3356.3: CDAT allows users to sort by the following columns
+• Dispute ID
+• Coversheet ID
+• Audited CMS-HCC
+• Final Disposition
+• Date Returned
+• Returned</description>
+   <name>RM_3356_Access Returned Tab on MRRD Management Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e30933e9-9999-4f5e-a751-9aa2ff68e10d</testCaseGuid>
+</TestCaseEntity>

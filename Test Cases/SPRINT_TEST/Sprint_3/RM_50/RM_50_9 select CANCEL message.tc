@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RM_50_9 select CANCEL message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd7487c5-59ec-4105-98dc-fe6a2d247879</testCaseGuid>
+</TestCaseEntity>

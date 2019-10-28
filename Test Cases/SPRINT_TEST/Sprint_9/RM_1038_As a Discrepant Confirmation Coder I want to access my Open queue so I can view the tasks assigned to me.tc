@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Discrepant Confirmation Coder I want to access the Completed tab on the Central Coder Queue screen so I can see my completed tasks. 
+
+ Acceptance Criteria: 
+
+RM-1038.1: CDAT displays the following tasks when the user selects the Completed tab. 
+- All tasks completed by the user 
+- Any records reset by a PM or a QA Panel 
+
+RM-1038.2: CDAT displays the number of tasks submitted to the next step in the Completed tab queue. 
+
+RM-1038.3: CDAT displays the following fields on the Completed tab: 
+• Coversheet ID 
+• Submission Date (date submitted by plan user) 
+• Step 
+• More which displays the following information when selected: 
+- Enrollee ID 
+- Date Completed (date submitted by the Discrepant Confirmation User to the next step. It includes a date and time stamp) 
+
+RM-1038.4: CDAT provides a Search by Coversheet ID option (supports partial search functionality). 
+
+RM-1038.5: CDAT displays the following message when a search returns no results: 
+&quot;No results found&quot; 
+
+RM-1038.6: CDAT provides the following Step filters: 
+• Submission Review 
+• Senior Evaluation 
+• Invalid Confirmation 
+
+RM-1038.7: CDAT disables filter options when there is no data to display. 
+
+RM-1038.8: Records that show as completed cannot be opened. 
+
+RM-1038.9: CDAT provides an option to sort on the following column headers: 
+• Coversheet ID 
+• Date Completed 
+• Step (sorted by sequence of steps; for example, Submission Review, Senior Evaluation, Invalid Confirmation, Focused Review and Discrepant Confirmation and vice versa) 
+
+RM-1038.10: CDAT provides the option to Request Task from the Completed tab. The user has an option to select the step for which they are requesting a task.</description>
+   <name>RM_1038_As a Discrepant Confirmation Coder I want to access my Open queue so I can view the tasks assigned to me</name>
+   <tag>RM 1038</tag>
+   <comment></comment>
+   <testCaseGuid>f9e01824-56d4-4778-963a-6cdd4c59d9fc</testCaseGuid>
+</TestCaseEntity>

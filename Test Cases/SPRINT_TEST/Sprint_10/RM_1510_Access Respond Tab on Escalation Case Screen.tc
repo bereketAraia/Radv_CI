@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an ER Sr. Coder I want to access the Respond tab on the Escalation Case screen so that I can view the task I want to resolve. 
+
+Acceptance Criteria: 
+
+RM-1510.1: CDAT provides a View Submission option for the user to view medical record documentation. 
+
+RM-1510.2: CDAT provides an Open Encoder Tool option for Focused Review and Discrepant Confirmation ER Senior Coders to open the Encoder Tool for research purposes only. 
+
+RM-1510.3: CDAT provides the following options on the Respond tab: 
+•View Submission - allows the user to view the submitted coversheet, attestation, if applicable and medical record) 
+•Exit - returns user to the Open tab on the Escalation Senior Coder queue 
+• Escalate to QA Panel - sends the task to the QA Panel 
+•Save - saves the user's work 
+•Send Response - saves and submits the task to back to the user who escalated the case. 
+
+RM-1510.4: The Respond tab displays the following header information: 
+•Escalation Case ID 
+•Coversheet ID 
+•Escalation Submitted By: (username) 
+•Step (the step from which the escalation was made) 
+•Date Escalated 
+
+RM-1510.5: CDAT displays the escalation comment as read only in the Respond tab.</description>
+   <name>RM_1510_Access Respond Tab on Escalation Case Screen</name>
+   <tag>RM 1510</tag>
+   <comment></comment>
+   <testCaseGuid>81892207-87ed-426b-805f-1f2d44ebd1e0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a CDAT user I want to update my security question so that I can select a different one.Acceptance Criteria:RM-4322.1: Given that the user has accessed My Account screen and navigated to the security question section, CDAT provides an Edit option for the user to update the security question. The user must answer their current security question before creating a new one.RM-4322.2: CDAT allows the user to select a different question from the list of security questions. The user is required to enter a new answer to the security question.RM-4322.3: The user must select the Change Questions option for the changes to be saved.</description>
+   <name>RM_4322_Update Security Question</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0cb92ba-4fe4-4fd4-9300-b966b3a653af</testCaseGuid>
+</TestCaseEntity>
