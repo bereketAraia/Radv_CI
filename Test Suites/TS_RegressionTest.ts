@@ -176,7 +176,7 @@
       <guid>544549b3-e297-4c47-bf96-856015ddcf91</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Page_Smoke_Test/PLAN_PORTAL/PP7_Review_Coversheet_Page_created</testCaseId>
+      <testCaseId>Test Cases/Page_Smoke_Test/PLAN_PORTAL/PP6.1_Review_Coversheet_Page_created</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>49ddf965-a6f0-4476-94cf-e061aff2163f</guid>
