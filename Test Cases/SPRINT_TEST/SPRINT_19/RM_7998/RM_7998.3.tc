@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>RM-7998.3- CDAT provides a Next Option for the user to move to the next screen.</description>
-   <name>RM_7998.3</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c0b5e5b2-02d5-442b-a036-5432b38ad277</testCaseGuid>
-</TestCaseEntity>

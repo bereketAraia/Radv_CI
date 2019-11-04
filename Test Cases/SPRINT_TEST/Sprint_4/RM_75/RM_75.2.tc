@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>RM-75.2: CDAT displays the Single Form of the completed coversheet when the user selects the Edit option.</description>
-   <name>RM_75.2</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>f0cd4899-4788-4999-87c8-db15dbf57795</testCaseGuid>
-</TestCaseEntity>

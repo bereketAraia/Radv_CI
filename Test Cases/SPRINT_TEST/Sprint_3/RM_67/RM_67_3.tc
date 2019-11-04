@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>RM-67.3: CDAT moves a medical record with a File Format Issue as an invalid submission to CDAT End. </description>
-   <name>RM_67_3</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a6b1b86c-adf8-46eb-b16b-da7fcb8fa575</testCaseGuid>
-</TestCaseEntity>

@@ -20,6 +20,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
+
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -62,9 +66,9 @@ WebUI.delay(4)
 
 WebUI.click(findTestObject('PLAN_PORTAL/PORTAL_NEW_P3_List_Enrollees_Page/Enrollee_1'))
 
-//WebUI.delay(2)
-WebUI.waitForAngularLoad(4)
+WebUI.delay(2)
 
+//WebUI.waitForAngularLoad(4)
 WebUI.scrollToPosition(0, 500)
 
 csName = WebUI.getText(findTestObject('PLAN_PORTAL/PORTAL_NEW_P4_Enrollee_Sub_Mang_Page/tr_1_td_3_CY YYYY Contract-Level RADV'))
@@ -95,9 +99,14 @@ WebUI.click(findTestObject('PLAN_PORTAL/PORTAL_NEW_P5_Medical_Record_coversheet_
 
 WebUI.delay(2)
 
-Runtime.getRuntime().exec(GlobalVariable.autoIT_chrome)
+browserName=DriverFactory.getExecutedBrowser().getName()
 
+if (browserName=="FIREFOX_DRIVER"){
+Runtime.getRuntime().exec(GlobalVariable.autoIT_chrome)
+} else {
+Runtime.getRuntime().exec(GlobalVariable.autoIT_firefox)
 WebUI.delay(2)
+}
 
 WebUI.scrollToPosition(0, 1000)
 
@@ -109,7 +118,16 @@ WebUI.verifyElementPresent(findTestObject('PLAN_PORTAL/PORTAL_NEW_P5_Medical_Rec
 
 WebUI.click(findTestObject('PLAN_PORTAL/PORTAL_NEW_P5_Medical_Record_coversheet_Page/button_Outpatient'))
 
-WebUI.sendKeys(findTestObject('PLAN_PORTAL/PORTAL_NEW_P5_Medical_Record_coversheet_Page/input_patientVisitation'), '12-19-2014')
+WebUI.delay(2)
+
+browserName=DriverFactory.getExecutedBrowser().getName()
+if (browserName=="FIREFOX_DRIVER"){
+WebUI.setText(findTestObject('PLAN_PORTAL/PORTAL_NEW_P5_Medical_Record_coversheet_Page/input_patientVisitation'), '2017-10-31')
+} else {
+  WebUI.sendKeys(findTestObject('PLAN_PORTAL/PORTAL_NEW_P5_Medical_Record_coversheet_Page/input_patientVisitation'), Keys.chord('10-31-2017', Keys.ENTER, Keys.TAB))
+}
+
+WebUI.sendKeys(findTestObject('PLAN_PORTAL/PORTAL_NEW_P5_Medical_Record_coversheet_Page/input_patientVisitation'), '05/05/2014' as String)
 
 WebUI.scrollToPosition(0, 1900)
 

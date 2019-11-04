@@ -226,7 +226,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Dev\\TestUploadFiles\\uploadFileScripts\\chromeFileUploadLocal.exe'</initValue>
+      <initValue>'C:\\Automation\\ci-Radv\\Data Files\\chromeFileUploadLocal.exe'</initValue>
       <name>autoIT_chrome</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

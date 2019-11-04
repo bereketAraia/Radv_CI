@@ -28,7 +28,7 @@ WebUI.navigateToUrl(GlobalVariable.ApplicationURL)
 
 WebUI.waitForPageLoad(2)
 
-WebUI.setText(findTestObject('USER_Management/P0_Login_Page_Global/Input_Username_box'), GlobalVariable.mrrc2user15)
+WebUI.setText(findTestObject('USER_Management/P0_Login_Page_Global/Input_Username_box'), GlobalVariable.mrrc2user50)
 
 WebUI.clearText(findTestObject('USER_Management/P0_Login_Page_Global/input_password (1)'))
 
