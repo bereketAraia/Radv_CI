@@ -37,13 +37,13 @@
    <testCaseLink>
       <guid>d0c283d8-4248-4381-974d-c470cd1f3713</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Page_Smoke_Test/CENTRAL_CODER/CCQ1.1_Central_Coder_Queue_Test</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bd6c741f-4c34-4955-8906-c025fe73fada</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Page_Smoke_Test/CENTRAL_CODER/CCQ1.2_CCQ_Open_Tab_Test</testCaseId>
    </testCaseLink>
    <testCaseLink>
