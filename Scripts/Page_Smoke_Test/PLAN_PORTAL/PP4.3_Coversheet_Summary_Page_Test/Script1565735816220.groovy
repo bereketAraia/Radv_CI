@@ -21,11 +21,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'open browser'
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.ApplicationURL)
 
 WebUI.maximizeWindow()
-
-WebUI.navigateToUrl(GlobalVariable.ApplicationURL)
 
 WebUI.waitForPageLoad(2)
 
@@ -51,8 +49,6 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('PLAN_PORTAL/PORTAL_NEW_P2_Plan_Portal_Page/Contract_first_a_- Contract'))
 
-//WebUI.delay(3)
-//WebUI.click(findTestObject('PLAN_PORTAL/PORTAL_NEW_P3_List_Enrollees_Page/button_In Progress'))
 WebUI.delay(3)
 
 WebUI.click(findTestObject('PLAN_PORTAL/PORTAL_NEW_P3_List_Enrollees_Page/Enrollee_1'))
