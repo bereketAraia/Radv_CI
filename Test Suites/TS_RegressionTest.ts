@@ -43,7 +43,7 @@
    <testCaseLink>
       <guid>bd6c741f-4c34-4955-8906-c025fe73fada</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Page_Smoke_Test/CENTRAL_CODER/CCQ1.2_CCQ_Open_Tab_Test</testCaseId>
    </testCaseLink>
    <testCaseLink>
