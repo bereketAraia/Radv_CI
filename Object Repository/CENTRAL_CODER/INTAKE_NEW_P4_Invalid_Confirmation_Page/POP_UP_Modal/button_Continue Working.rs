@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;modalDialog&quot;)/div[@class=&quot;modal-dialog&quot;]/footer[1]/div[1]/button[@class=&quot;btn-primary&quot;][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
+         <value>id(&quot;modalDialog&quot;)/div[@class=&quot;modal-dialog&quot;]/footer[1]/div[1]/button[1][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;modalDialog&quot;)/div[@class=&quot;modal-dialog&quot;]/footer[1]/div[1]/button[@class=&quot;btn-primary&quot;]</value>
+      <value>id(&quot;modalDialog&quot;)/div[@class=&quot;modal-dialog&quot;]/footer[1]/div[1]/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

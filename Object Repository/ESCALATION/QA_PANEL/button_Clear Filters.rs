@@ -4,6 +4,12 @@
    <name>button_Clear Filters</name>
    <tag></tag>
    <elementGuidId>189accac-04eb-4451-9652-4192226a93ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mainContent&quot;)/mrrc-qa-open[1]/section[1]/div[1]/div[3]/button[1][count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -41,6 +47,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mainContent&quot;)/mrrc-qa-open[1]/section[1]/div[@class=&quot;table-header&quot;]/div[@class=&quot;toolbar&quot;]/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn-clear&quot;]</value>
+      <value>id(&quot;mainContent&quot;)/mrrc-qa-open[1]/section[1]/div[1]/div[3]/button[1]</value>
    </webElementProperties>
 </WebElementEntity>

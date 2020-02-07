@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/main[1]/plan-enrollee-list[1]/section[1]/div[@class=&quot;table-header&quot;]/div[@class=&quot;btn-group pull-right&quot;]/button[@class=&quot;btn-clear&quot;][count(. | //button[(text() = '
+         <value>id(&quot;mainContent&quot;)/plan-enrollee-list[1]/section[1]/div[1]/div[3]/button[1][count(. | //button[(text() = '
                 Clear Filters
             ' or . = '
                 Clear Filters
@@ -48,6 +48,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/main[1]/plan-enrollee-list[1]/section[1]/div[@class=&quot;table-header&quot;]/div[@class=&quot;btn-group pull-right&quot;]/button[@class=&quot;btn-clear&quot;]</value>
+      <value>id(&quot;mainContent&quot;)/plan-enrollee-list[1]/section[1]/div[1]/div[3]/button[1]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;mainContent&quot;)/mrrc-open[1]/section[1]/table[@class=&quot;table-mrrc-portal&quot;]/tbody[1]/tr[2]/td[1]/div[1]/div[3]/h4[1][count(. | //h4[(text() = 'Date Requested:' or . = 'Date Requested:')]) = count(//h4[(text() = 'Date Requested:' or . = 'Date Requested:')])]</value>
+         <value>id(&quot;mainContent&quot;)/mrrc-open[1]/section[1]/table[@class=&quot;table-mrrc-portal&quot;]/tbody[1]/tr[2]/td[1]/div[1]/div[3]/h4[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>h4</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

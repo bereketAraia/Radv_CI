@@ -16,12 +16,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'LhWdA46mC]#sM!SyX'</initValue>
+      <initValue>'q8&lt;$HXG#x!g9kCJb4'</initValue>
       <name>password_plan_QA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'QZ2$fK[{mVgH9an!M'</initValue>
+      <initValue>'t7([4fyKeLm528DZu'</initValue>
       <name>password_mrrc_QA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -226,7 +226,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Automation\\ci-Radv\\Data Files\\chromeFileUploadLocal.exe'</initValue>
+      <initValue>'C:\\Automation\\ci-Radv\\DataFiles\\chromeFileUploadLocal.exe'</initValue>
       <name>autoIT_chrome</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

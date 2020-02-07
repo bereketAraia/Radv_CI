@@ -4,6 +4,12 @@
    <name>section6_label_Other</name>
    <tag></tag>
    <elementGuidId>ef63db91-86c9-440c-9226-e381d057dc16</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;section6&quot;)/div[1]/div[@class=&quot;invalid&quot;]/div[3]/ul[2]/li[1]/label[1][count(. | //label[(text() = 'Other' or . = 'Other')]) = count(//label[(text() = 'Other' or . = 'Other')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

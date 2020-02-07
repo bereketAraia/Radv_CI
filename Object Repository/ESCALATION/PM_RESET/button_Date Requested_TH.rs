@@ -4,6 +4,12 @@
    <name>button_Date Requested_TH</name>
    <tag></tag>
    <elementGuidId>48457d48-aff2-4eab-b771-adae8a2df2be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mainContent&quot;)/mrrc-pm-reset[1]/section[1]/table[1]/thead[1]/tr[1]/th[@class=&quot;sorting numeric desc&quot;]/button[1][count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -4,6 +4,12 @@
    <name>rank_table_th_More</name>
    <tag></tag>
    <elementGuidId>b3440cb5-e704-43cd-a927-a3adf73e136b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mainContent&quot;)/coversheet-rank[1]/section[1]/table[1]/thead[1]/tr[1]/th[@class=&quot;more&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>more</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

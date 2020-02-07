@@ -62,7 +62,7 @@ for (int count = 5; count > 0; count--) {
 
     WebUI.scrollToPosition(0, 1200)
 
-    WebUI.click(findTestObject('CENTRAL_CODER/INTAKE_NEW_P3_Senior_Evaluation_Page/Evaluate_Section/Section_6_select_all_relevant_issues/section6_label_No'))
+    WebUI.click(findTestObject('CENTRAL_CODER/INTAKE_NEW_P3_Senior_Evaluation_Page/Evaluate_Section/Section_6_select_all_relevant_issues/section6_label_Q1_No'))
 
     WebUI.delay(0)
 

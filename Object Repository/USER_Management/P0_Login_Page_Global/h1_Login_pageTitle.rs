@@ -4,6 +4,12 @@
    <name>h1_Login_pageTitle</name>
    <tag></tag>
    <elementGuidId>172b0de1-1c17-40e3-a78d-b29d17c9c599</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mainContent&quot;)/header[1]/div[1]/h1[1][count(. | //h1[(text() = 'Login' or . = 'Login')]) = count(//h1[(text() = 'Login' or . = 'Login')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/main[1]/header[@class=&quot;jumbotron&quot;]/div[@class=&quot;container-fluid&quot;]/h1[1]</value>
+      <value>id(&quot;mainContent&quot;)/header[1]/div[1]/h1[1]</value>
    </webElementProperties>
 </WebElementEntity>

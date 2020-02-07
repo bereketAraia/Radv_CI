@@ -4,6 +4,12 @@
    <name>TAB_a_Open</name>
    <tag></tag>
    <elementGuidId>912a8ddc-983e-4455-bc2f-46eb347d6c06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mainContent&quot;)/header[1]/div[1]/hero-content[1]/ul[1]/li[1]/a[1]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -49,14 +55,14 @@
       <value>active</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/mrrc/central/open</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -67,6 +73,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/main[1]/header[@class=&quot;jumbotron&quot;]/div[@class=&quot;container-fluid&quot;]/hero-content[1]/ul[@class=&quot;nav nav-tabs&quot;]/li[1]/a[@class=&quot;active&quot;]</value>
+      <value>id(&quot;mainContent&quot;)/header[1]/div[1]/hero-content[1]/ul[1]/li[1]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

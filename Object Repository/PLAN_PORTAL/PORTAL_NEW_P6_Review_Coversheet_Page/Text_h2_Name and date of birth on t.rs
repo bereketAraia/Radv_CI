@@ -4,6 +4,12 @@
    <name>Text_h2_Name and date of birth on t</name>
    <tag></tag>
    <elementGuidId>9faecd91-d0b1-42ff-b5f9-6226a348a685</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mainContent&quot;)/add-coversheet-review[1]/section[@class=&quot;enrollee-wizard review&quot;]/h2[3][count(. | //h2[(text() = 'Name and date of birth on the medical record' or . = 'Name and date of birth on the medical record')]) = count(//h2[(text() = 'Name and date of birth on the medical record' or . = 'Name and date of birth on the medical record')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/main[1]/add-coversheet-review[1]/section[@class=&quot;enrollee-wizard review&quot;]/h2[3]</value>
+      <value>id(&quot;mainContent&quot;)/add-coversheet-review[1]/section[@class=&quot;enrollee-wizard review&quot;]/h2[3]</value>
    </webElementProperties>
 </WebElementEntity>

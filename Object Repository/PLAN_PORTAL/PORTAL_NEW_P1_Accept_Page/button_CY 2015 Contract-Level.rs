@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;mainContent&quot;)/header[1]/div[1]/hero-content[1]/span[1]/ul[1]/li[3]/button[1]</value>
+         <value>//button[(text() = 'CY 2015 Contract-Level RADV' or . = 'CY 2015 Contract-Level RADV')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,14 +34,14 @@
       <value>[object Object]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>CY 2015 Contract-Level RADV</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -7,21 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;mainContent&quot;)/mrrc-open[1]/footer[1]/div[@class=&quot;center&quot;]/div[1]/button[@class=&quot;btn-primary&quot;][count(. | //button[(text() = '
-                Request Task
-            ' or . = '
-                Request Task
-            ')]) = count(//button[(text() = '
-                Request Task
-            ' or . = '
-                Request Task
-            ')])]</value>
+         <value>id(&quot;mainContent&quot;)/mrrc-open[1]/footer[1]/div[@class=&quot;center&quot;]/div[1]/button[1]/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -42,7 +34,7 @@
       <value>[object Object]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -55,6 +47,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mainContent&quot;)/mrrc-open[1]/footer[1]/div[@class=&quot;center&quot;]/div[1]/button[@class=&quot;btn-primary&quot;]</value>
+      <value>id(&quot;mainContent&quot;)/mrrc-open[1]/footer[1]/div[@class=&quot;center&quot;]/div[1]/button[1]/span[1]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/main[1]/add-coversheet-review[1]/section[@class=&quot;enrollee-wizard review&quot;]/div[@class=&quot;row text-center&quot;]/div[1]/p[1]</value>
+         <value>id(&quot;mainContent&quot;)/add-coversheet-review[1]/section[@class=&quot;enrollee-wizard review&quot;]/div[@class=&quot;row text-center&quot;]/div[1]/p[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,6 +33,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/main[1]/add-coversheet-review[1]/section[@class=&quot;enrollee-wizard review&quot;]/div[@class=&quot;row text-center&quot;]/div[1]/p[1]</value>
+      <value>id(&quot;mainContent&quot;)/add-coversheet-review[1]/section[@class=&quot;enrollee-wizard review&quot;]/div[@class=&quot;row text-center&quot;]/div[1]/p[1]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -95,10 +95,10 @@ WebUI.click(findTestObject('PLAN_PORTAL/PORTAL_NEW_P1_Accept_Page/button_CY 2015
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 // WebUI.click(findTestObject('CENTRAL_CODER/INTAKE_NEW_P1_Central_Coder_Queue_Page/filter_button_Submission Review'))
-//def coversheet_ID = WebUI.getText(findTestObject('CENTRAL_CODER/INTAKE_NEW_P1_Central_Coder_Queue_Page/td_1_coversheet_a_CY 2015 Contract-Level RADV-'))
-def submissionDate = WebUI.getText(findTestObject('CENTRAL_CODER/INTAKE_NEW_P1_Central_Coder_Queue_Page/td_1_time_MMDDYYYY 0000 AM EDT'))
+//def coversheet_ID = WebUI.getText(findTestObject('CENTRAL_CODER/INTAKE_NEW_P1_Central_Coder_Queue_Page/td_1_coversheet_ID'))
+def submissionDate = WebUI.getText(findTestObject('CENTRAL_CODER/INTAKE_NEW_P1_Central_Coder_Queue_Page/td_1_Submission_Date'))
 
-def stepType = WebUI.getText(findTestObject('CENTRAL_CODER/INTAKE_NEW_P1_Central_Coder_Queue_Page/td_1__Submission Review'))
+def stepType = WebUI.getText(findTestObject('CENTRAL_CODER/INTAKE_NEW_P1_Central_Coder_Queue_Page/td_1__STEP'))
 
 def openCount = WebUI.getText(findTestObject('CENTRAL_CODER/INTAKE_NEW_P1_Central_Coder_Queue_Page/Hero_Tab_a_Open ()'))
 

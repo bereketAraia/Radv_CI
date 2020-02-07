@@ -4,6 +4,12 @@
    <name>Text_h2_Medical Record</name>
    <tag></tag>
    <elementGuidId>df5635fd-1e60-4f91-aa6a-f4f5f6fa51b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mainContent&quot;)/add-coversheet-review[1]/section[1]/div[2]/h2[1]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/main[1]/add-coversheet-review[1]/section[@class=&quot;enrollee-wizard review&quot;]/h2[1]</value>
+      <value>id(&quot;mainContent&quot;)/add-coversheet-review[1]/section[1]/div[2]/h2[1]</value>
    </webElementProperties>
 </WebElementEntity>
